@@ -1,0 +1,8 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  FPGA_SoC  -multisrs  D:\GitHub\FPGA\FPGA_SoC\synthesis\synwork\FPGA_SoC_comp.srs  -osyn  D:\GitHub\FPGA\FPGA_SoC\synthesis\synwork\FPGA_SoC_mult.srs  -log  D:\GitHub\FPGA\FPGA_SoC\synthesis\synlog\FPGA_SoC_multi_srs_gen.srr 
+relcom:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe -link -top FPGA_SoC -multisrs ..\synwork\FPGA_SoC_comp.srs -osyn ..\synwork\FPGA_SoC_mult.srs -log ..\synlog\FPGA_SoC_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\FPGA_SoC_comp.srs|io:i|time:1688713899|size:114849|exec:0|csum:E4362D2E6F654A5A1ED094109C47C85C
+file:..\synwork\FPGA_SoC_mult.srs|io:o|time:1688713900|size:19451|exec:0|csum:
+file:..\synlog\FPGA_SoC_multi_srs_gen.srr|io:o|time:1688713900|size:497|exec:0|csum:
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1508986612|size:3128832|exec:1|csum:962D613D77B03012E41E67FDFAA0D819
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1508986884|size:3947520|exec:1|csum:17B0DA4185D3A16356E0044EDC31C9F0

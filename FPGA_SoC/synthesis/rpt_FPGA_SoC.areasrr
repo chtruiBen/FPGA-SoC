@@ -1,0 +1,384 @@
+#### START OF AREA REPORT #####[
+
+Part:			M2S010TVF400-1 (Microsemi)
+
+------------------------------------------------------------------------
+########   Utilization report for  Top level view:   FPGA_SoC   ########
+========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      667                100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FPGA_SoC:	667 (30.37 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           1228               100 %                
+ARI1          232                100 %                
+BLACK BOX     47                 100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block FPGA_SoC:	1507 (68.62 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     5                  100 %                
+=====================================================
+Total MEMORY ELEMENTS in the block FPGA_SoC:	5 (0.23 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     3                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block FPGA_SoC:	3 (0.14 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       21                 100 %                
+=================================================
+Total IO PADS in the block FPGA_SoC:	21 (0.96 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   CoreAPB3_Z1   ########
+Instance path:   FPGA_SoC.CoreAPB3_Z1                            
+=================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      35                 2.85 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block FPGA_SoC.CoreAPB3_Z1:	35 (1.59 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   COREAPB3_MUXPTOB3   ########
+Instance path:   CoreAPB3_Z1.COREAPB3_MUXPTOB3                         
+=======================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      28                 2.28 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block CoreAPB3_Z1.COREAPB3_MUXPTOB3:	28 (1.28 % Utilization)
+
+-------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FPGA_SoC_CoreGPIO_0_CoreGPIO_Z2   ########
+Instance path:   FPGA_SoC.FPGA_SoC_CoreGPIO_0_CoreGPIO_Z2                            
+=====================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      11                 1.65 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FPGA_SoC.FPGA_SoC_CoreGPIO_0_CoreGPIO_Z2:	11 (0.50 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      28                 2.28 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block FPGA_SoC.FPGA_SoC_CoreGPIO_0_CoreGPIO_Z2:	28 (1.28 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   FPGA_SoC_FCCC_0_FCCC   ########
+Instance path:   FPGA_SoC.FPGA_SoC_FCCC_0_FCCC                            
+==========================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     3                  6.38 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block FPGA_SoC.FPGA_SoC_FCCC_0_FCCC:	3 (0.14 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  66.7 %               
+===================================================
+Total GLOBAL BUFFERS in the block FPGA_SoC.FPGA_SoC_FCCC_0_FCCC:	2 (0.09 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   FPGA_SoC_MSS   ########
+Instance path:   FPGA_SoC.FPGA_SoC_MSS                            
+==================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           1                  0.08140 %            
+BLACK BOX     1                  2.13 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block FPGA_SoC.FPGA_SoC_MSS:	2 (0.09 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       6                  28.6 %               
+=================================================
+Total IO PADS in the block FPGA_SoC.FPGA_SoC_MSS:	6 (0.27 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   FPGA_SoC_OSC_0_OSC   ########
+Instance path:   FPGA_SoC.FPGA_SoC_OSC_0_OSC                            
+========================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  2.13 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block FPGA_SoC.FPGA_SoC_OSC_0_OSC:	1 (0.05 % Utilization)
+
+-------------------------------------------------------------
+########   Utilization report for  cell:   LCD_RGB   ########
+Instance path:   FPGA_SoC.LCD_RGB                            
+=============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      95                 14.2 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FPGA_SoC.LCD_RGB:	95 (4.33 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           354                28.8 %               
+ARI1          76                 32.8 %               
+BLACK BOX     15                 31.9 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block FPGA_SoC.LCD_RGB:	445 (20.26 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     4                  80 %                 
+=====================================================
+Total MEMORY ELEMENTS in the block FPGA_SoC.LCD_RGB:	4 (0.18 % Utilization)
+
+------------------------------------------------------------
+########   Utilization report for  cell:   PWMctr   ########
+Instance path:   FPGA_SoC.PWMctr                            
+============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      47                 7.05 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FPGA_SoC.PWMctr:	47 (2.14 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           22                 1.79 %               
+ARI1          75                 32.3 %               
+BLACK BOX     2                  4.26 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block FPGA_SoC.PWMctr:	99 (4.51 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   corepwm_Z3   ########
+Instance path:   FPGA_SoC.corepwm_Z3                            
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      121                18.1 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FPGA_SoC.corepwm_Z3:	121 (5.51 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           150                12.2 %               
+ARI1          81                 34.9 %               
+BLACK BOX     16                 34 %                 
+======================================================
+Total COMBINATIONAL LOGIC in the block FPGA_SoC.corepwm_Z3:	247 (11.25 % Utilization)
+
+---------------------------------------------------------------------------------
+########   Utilization report for  cell:   corepwm_pwm_gen_4s_16s_0_0s   ########
+Instance path:   corepwm_Z3.corepwm_pwm_gen_4s_16s_0_0s                          
+=================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      4                  0.60 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block corepwm_Z3.corepwm_pwm_gen_4s_16s_0_0s:	4 (0.18 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      65                 5.29 %               
+ARI1     32                 13.8 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block corepwm_Z3.corepwm_pwm_gen_4s_16s_0_0s:	97 (4.42 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   corepwm_reg_if_Z4   ########
+Instance path:   corepwm_Z3.corepwm_reg_if_Z4                          
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      101                15.1 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block corepwm_Z3.corepwm_reg_if_Z4:	101 (4.60 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      85                 6.92 %               
+ARI1     16                 6.9 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block corepwm_Z3.corepwm_reg_if_Z4:	101 (4.60 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   corepwm_timebase_16s_0s   ########
+Instance path:   corepwm_Z3.corepwm_timebase_16s_0s                          
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      16                 2.4 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block corepwm_Z3.corepwm_timebase_16s_0s:	16 (0.73 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+ARI1          33                 14.2 %               
+BLACK BOX     16                 34 %                 
+======================================================
+Total COMBINATIONAL LOGIC in the block corepwm_Z3.corepwm_timebase_16s_0s:	49 (2.23 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   reg_apb_demo   ########
+Instance path:   FPGA_SoC.reg_apb_demo                            
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  0.150 %              
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FPGA_SoC.reg_apb_demo:	1 (0.05 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           4                  0.3260 %             
+BLACK BOX     8                  17 %                 
+======================================================
+Total COMBINATIONAL LOGIC in the block FPGA_SoC.reg_apb_demo:	12 (0.55 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     1                  20 %                 
+=====================================================
+Total MEMORY ELEMENTS in the block FPGA_SoC.reg_apb_demo:	1 (0.05 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   reg_demo   ########
+Instance path:   reg_apb_demo.reg_demo                        
+==============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  0.150 %              
+=================================================
+Total SEQUENTIAL ELEMENTS in the block reg_apb_demo.reg_demo:	1 (0.05 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           2                  0.1630 %             
+BLACK BOX     8                  17 %                 
+======================================================
+Total COMBINATIONAL LOGIC in the block reg_apb_demo.reg_demo:	10 (0.46 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     1                  20 %                 
+=====================================================
+Total MEMORY ELEMENTS in the block reg_apb_demo.reg_demo:	1 (0.05 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   reg_apb_wrp   ########
+Instance path:   FPGA_SoC.reg_apb_wrp                            
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      392                58.8 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FPGA_SoC.reg_apb_wrp:	392 (17.85 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      634                51.6 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block FPGA_SoC.reg_apb_wrp:	634 (28.87 % Utilization)
+
+-------------------------------------------------------------
+########   Utilization report for  cell:   reg16x8   ########
+Instance path:   reg_apb_wrp.reg16x8                         
+=============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      392                58.8 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block reg_apb_wrp.reg16x8:	392 (17.85 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      632                51.5 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block reg_apb_wrp.reg16x8:	632 (28.78 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

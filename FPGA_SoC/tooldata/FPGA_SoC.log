@@ -1,0 +1,16 @@
+Project Name: FPGA_SoC
+Location: D:\GitHub\FPGA\FPGA_SoC
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S010T-1VF256
+Family         : SmartFusion2
+Die            : M2S010T
+Package        : 256 VF
+Speed          : -1
+Core Voltage   : 1.2
+Range          : COM

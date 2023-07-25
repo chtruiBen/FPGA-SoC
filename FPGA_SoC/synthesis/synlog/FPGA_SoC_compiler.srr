@@ -1,0 +1,1130 @@
+Synopsys HDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q4p1, Build 517R, built Oct 30 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v" (library work)
+@I::"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC\FCCC_0\FPGA_SoC_FCCC_0_FCCC.v" (library work)
+@I::"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC_MSS\FPGA_SoC_MSS_syn.v" (library work)
+@I::"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC_MSS\FPGA_SoC_MSS.v" (library work)
+@I::"D:\GitHub\FPGA\FPGA_SoC\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" (library work)
+@I::"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC\OSC_0\FPGA_SoC_OSC_0_OSC.v" (library work)
+@I::"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v" (library work)
+@I::"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v" (library work)
+@I::"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\pwm_gen.v" (library work)
+@I::"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\reg_if.v" (library work)
+@I::"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\tach_if.v" (library work)
+@I::"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\timebase.v" (library work)
+@I::"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v" (library work)
+@I::"D:\GitHub\FPGA\FPGA_SoC\hdl\reg_demo.v" (library work)
+@I::"D:\GitHub\FPGA\FPGA_SoC\hdl\reg_apb_demo.v" (library work)
+@I::"D:\GitHub\FPGA\FPGA_SoC\hdl\reg16x8.v" (library work)
+@I::"D:\GitHub\FPGA\FPGA_SoC\hdl\reg_apb_wrp.v" (library work)
+@I::"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v" (library COREAPB3_LIB)
+@I::"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_iaddr_reg.v" (library COREAPB3_LIB)
+@I::"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v" (library COREAPB3_LIB)
+@I::"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC\FPGA_SoC.v" (library work)
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module FPGA_SoC
+@W: CG775 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Found Component CoreAPB3 in library COREAPB3_LIB
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v":30:7:30:23|Synthesizing module COREAPB3_MUXPTOB3 in library COREAPB3_LIB.
+
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Synthesizing module CoreAPB3 in library COREAPB3_LIB.
+
+	APB_DWIDTH=6'b100000
+	IADDR_OPTION=32'b00000000000000000000000000000000
+	APBSLOT0ENABLE=1'b1
+	APBSLOT1ENABLE=1'b1
+	APBSLOT2ENABLE=1'b1
+	APBSLOT3ENABLE=1'b0
+	APBSLOT4ENABLE=1'b0
+	APBSLOT5ENABLE=1'b1
+	APBSLOT6ENABLE=1'b0
+	APBSLOT7ENABLE=1'b0
+	APBSLOT8ENABLE=1'b0
+	APBSLOT9ENABLE=1'b0
+	APBSLOT10ENABLE=1'b0
+	APBSLOT11ENABLE=1'b0
+	APBSLOT12ENABLE=1'b0
+	APBSLOT13ENABLE=1'b0
+	APBSLOT14ENABLE=1'b0
+	APBSLOT15ENABLE=1'b0
+	SC_0=1'b0
+	SC_1=1'b0
+	SC_2=1'b0
+	SC_3=1'b0
+	SC_4=1'b0
+	SC_5=1'b0
+	SC_6=1'b0
+	SC_7=1'b0
+	SC_8=1'b0
+	SC_9=1'b0
+	SC_10=1'b0
+	SC_11=1'b0
+	SC_12=1'b0
+	SC_13=1'b0
+	SC_14=1'b0
+	SC_15=1'b0
+	MADDR_BITS=6'b010100
+	UPR_NIBBLE_POSN=4'b0100
+	FAMILY=32'b00000000000000000000000000010011
+	SYNC_RESET=32'b00000000000000000000000000000000
+	IADDR_NOTINUSE=32'b00000000000000000000000000000000
+	IADDR_EXTERNAL=32'b00000000000000000000000000000001
+	IADDR_SLOT0=32'b00000000000000000000000000000010
+	IADDR_SLOT1=32'b00000000000000000000000000000011
+	IADDR_SLOT2=32'b00000000000000000000000000000100
+	IADDR_SLOT3=32'b00000000000000000000000000000101
+	IADDR_SLOT4=32'b00000000000000000000000000000110
+	IADDR_SLOT5=32'b00000000000000000000000000000111
+	IADDR_SLOT6=32'b00000000000000000000000000001000
+	IADDR_SLOT7=32'b00000000000000000000000000001001
+	IADDR_SLOT8=32'b00000000000000000000000000001010
+	IADDR_SLOT9=32'b00000000000000000000000000001011
+	IADDR_SLOT10=32'b00000000000000000000000000001100
+	IADDR_SLOT11=32'b00000000000000000000000000001101
+	IADDR_SLOT12=32'b00000000000000000000000000001110
+	IADDR_SLOT13=32'b00000000000000000000000000001111
+	IADDR_SLOT14=32'b00000000000000000000000000010000
+	IADDR_SLOT15=32'b00000000000000000000000000010001
+	SL0=16'b0000000000000001
+	SL1=16'b0000000000000010
+	SL2=16'b0000000000000100
+	SL3=16'b0000000000000000
+	SL4=16'b0000000000000000
+	SL5=16'b0000000000100000
+	SL6=16'b0000000000000000
+	SL7=16'b0000000000000000
+	SL8=16'b0000000000000000
+	SL9=16'b0000000000000000
+	SL10=16'b0000000000000000
+	SL11=16'b0000000000000000
+	SL12=16'b0000000000000000
+	SL13=16'b0000000000000000
+	SL14=16'b0000000000000000
+	SL15=16'b0000000000000000
+	SC=16'b0000000000000000
+	SC_qual=16'b0000000000000000
+   Generated name = CoreAPB3_Z1
+
+@W: CG360 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":244:12:244:20|Removing wire IA_PRDATA, as there is no assignment to it.
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":23:7:23:34|Synthesizing module FPGA_SoC_CoreGPIO_0_CoreGPIO in library work.
+
+	IO_NUM=32'b00000000000000000000000000000001
+	APB_WIDTH=32'b00000000000000000000000000100000
+	OE_TYPE=1'b0
+	INT_BUS=1'b0
+	FIXED_CONFIG_0=1'b0
+	FIXED_CONFIG_1=1'b0
+	FIXED_CONFIG_2=1'b0
+	FIXED_CONFIG_3=1'b0
+	FIXED_CONFIG_4=1'b0
+	FIXED_CONFIG_5=1'b0
+	FIXED_CONFIG_6=1'b0
+	FIXED_CONFIG_7=1'b0
+	FIXED_CONFIG_8=1'b0
+	FIXED_CONFIG_9=1'b0
+	FIXED_CONFIG_10=1'b0
+	FIXED_CONFIG_11=1'b0
+	FIXED_CONFIG_12=1'b0
+	FIXED_CONFIG_13=1'b0
+	FIXED_CONFIG_14=1'b0
+	FIXED_CONFIG_15=1'b0
+	FIXED_CONFIG_16=1'b0
+	FIXED_CONFIG_17=1'b0
+	FIXED_CONFIG_18=1'b0
+	FIXED_CONFIG_19=1'b0
+	FIXED_CONFIG_20=1'b0
+	FIXED_CONFIG_21=1'b0
+	FIXED_CONFIG_22=1'b0
+	FIXED_CONFIG_23=1'b0
+	FIXED_CONFIG_24=1'b0
+	FIXED_CONFIG_25=1'b0
+	FIXED_CONFIG_26=1'b0
+	FIXED_CONFIG_27=1'b0
+	FIXED_CONFIG_28=1'b0
+	FIXED_CONFIG_29=1'b0
+	FIXED_CONFIG_30=1'b0
+	FIXED_CONFIG_31=1'b0
+	IO_TYPE_0=2'b00
+	IO_TYPE_1=2'b00
+	IO_TYPE_2=2'b00
+	IO_TYPE_3=2'b00
+	IO_TYPE_4=2'b00
+	IO_TYPE_5=2'b00
+	IO_TYPE_6=2'b00
+	IO_TYPE_7=2'b00
+	IO_TYPE_8=2'b00
+	IO_TYPE_9=2'b00
+	IO_TYPE_10=2'b00
+	IO_TYPE_11=2'b00
+	IO_TYPE_12=2'b00
+	IO_TYPE_13=2'b00
+	IO_TYPE_14=2'b00
+	IO_TYPE_15=2'b00
+	IO_TYPE_16=2'b00
+	IO_TYPE_17=2'b00
+	IO_TYPE_18=2'b00
+	IO_TYPE_19=2'b00
+	IO_TYPE_20=2'b00
+	IO_TYPE_21=2'b00
+	IO_TYPE_22=2'b00
+	IO_TYPE_23=2'b00
+	IO_TYPE_24=2'b00
+	IO_TYPE_25=2'b00
+	IO_TYPE_26=2'b00
+	IO_TYPE_27=2'b00
+	IO_TYPE_28=2'b00
+	IO_TYPE_29=2'b00
+	IO_TYPE_30=2'b00
+	IO_TYPE_31=2'b00
+	IO_INT_TYPE_0=3'b111
+	IO_INT_TYPE_1=3'b111
+	IO_INT_TYPE_2=3'b111
+	IO_INT_TYPE_3=3'b111
+	IO_INT_TYPE_4=3'b111
+	IO_INT_TYPE_5=3'b111
+	IO_INT_TYPE_6=3'b111
+	IO_INT_TYPE_7=3'b111
+	IO_INT_TYPE_8=3'b111
+	IO_INT_TYPE_9=3'b111
+	IO_INT_TYPE_10=3'b111
+	IO_INT_TYPE_11=3'b111
+	IO_INT_TYPE_12=3'b111
+	IO_INT_TYPE_13=3'b111
+	IO_INT_TYPE_14=3'b111
+	IO_INT_TYPE_15=3'b111
+	IO_INT_TYPE_16=3'b111
+	IO_INT_TYPE_17=3'b111
+	IO_INT_TYPE_18=3'b111
+	IO_INT_TYPE_19=3'b111
+	IO_INT_TYPE_20=3'b111
+	IO_INT_TYPE_21=3'b111
+	IO_INT_TYPE_22=3'b111
+	IO_INT_TYPE_23=3'b111
+	IO_INT_TYPE_24=3'b111
+	IO_INT_TYPE_25=3'b111
+	IO_INT_TYPE_26=3'b111
+	IO_INT_TYPE_27=3'b111
+	IO_INT_TYPE_28=3'b111
+	IO_INT_TYPE_29=3'b111
+	IO_INT_TYPE_30=3'b111
+	IO_INT_TYPE_31=3'b111
+	IO_VAL_0=1'b0
+	IO_VAL_1=1'b0
+	IO_VAL_2=1'b0
+	IO_VAL_3=1'b0
+	IO_VAL_4=1'b0
+	IO_VAL_5=1'b0
+	IO_VAL_6=1'b0
+	IO_VAL_7=1'b0
+	IO_VAL_8=1'b0
+	IO_VAL_9=1'b0
+	IO_VAL_10=1'b0
+	IO_VAL_11=1'b0
+	IO_VAL_12=1'b0
+	IO_VAL_13=1'b0
+	IO_VAL_14=1'b0
+	IO_VAL_15=1'b0
+	IO_VAL_16=1'b0
+	IO_VAL_17=1'b0
+	IO_VAL_18=1'b0
+	IO_VAL_19=1'b0
+	IO_VAL_20=1'b0
+	IO_VAL_21=1'b0
+	IO_VAL_22=1'b0
+	IO_VAL_23=1'b0
+	IO_VAL_24=1'b0
+	IO_VAL_25=1'b0
+	IO_VAL_26=1'b0
+	IO_VAL_27=1'b0
+	IO_VAL_28=1'b0
+	IO_VAL_29=1'b0
+	IO_VAL_30=1'b0
+	IO_VAL_31=1'b0
+	FIXED_CONFIG=32'b00000000000000000000000000000000
+	IO_INT_TYPE=96'b111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+	IO_TYPE=64'b0000000000000000000000000000000000000000000000000000000000000000
+	IO_VAL=32'b00000000000000000000000000000000
+   Generated name = FPGA_SoC_CoreGPIO_0_CoreGPIO_Z2
+
+@N: CG179 :"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":436:15:436:26|Removing redundant assignment.
+@N: CG179 :"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":456:15:456:26|Removing redundant assignment.
+@N: CG179 :"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":476:16:476:28|Removing redundant assignment.
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v":26:7:26:13|Synthesizing module corepwm in library work.
+
+	FAMILY=32'b00000000000000000000000000010011
+	CONFIG_MODE=32'b00000000000000000000000000000000
+	PWM_NUM=32'b00000000000000000000000000000100
+	APB_DWIDTH=32'b00000000000000000000000000010000
+	FIXED_PRESCALE_EN=32'b00000000000000000000000000000001
+	FIXED_PRESCALE=32'b00000000000000000000000000000000
+	FIXED_PERIOD_EN=32'b00000000000000000000000000000000
+	FIXED_PERIOD=32'b00000000000000000000000000000001
+	DAC_MODE1=32'b00000000000000000000000000000000
+	DAC_MODE2=32'b00000000000000000000000000000000
+	DAC_MODE3=32'b00000000000000000000000000000000
+	DAC_MODE4=32'b00000000000000000000000000000000
+	DAC_MODE5=32'b00000000000000000000000000000000
+	DAC_MODE6=32'b00000000000000000000000000000000
+	DAC_MODE7=32'b00000000000000000000000000000000
+	DAC_MODE8=32'b00000000000000000000000000000000
+	DAC_MODE9=32'b00000000000000000000000000000000
+	DAC_MODE10=32'b00000000000000000000000000000000
+	DAC_MODE11=32'b00000000000000000000000000000000
+	DAC_MODE12=32'b00000000000000000000000000000000
+	DAC_MODE13=32'b00000000000000000000000000000000
+	DAC_MODE14=32'b00000000000000000000000000000000
+	DAC_MODE15=32'b00000000000000000000000000000000
+	DAC_MODE16=32'b00000000000000000000000000000000
+	SHADOW_REG_EN1=32'b00000000000000000000000000000000
+	SHADOW_REG_EN2=32'b00000000000000000000000000000000
+	SHADOW_REG_EN3=32'b00000000000000000000000000000000
+	SHADOW_REG_EN4=32'b00000000000000000000000000000000
+	SHADOW_REG_EN5=32'b00000000000000000000000000000000
+	SHADOW_REG_EN6=32'b00000000000000000000000000000000
+	SHADOW_REG_EN7=32'b00000000000000000000000000000000
+	SHADOW_REG_EN8=32'b00000000000000000000000000000000
+	SHADOW_REG_EN9=32'b00000000000000000000000000000000
+	SHADOW_REG_EN10=32'b00000000000000000000000000000000
+	SHADOW_REG_EN11=32'b00000000000000000000000000000000
+	SHADOW_REG_EN12=32'b00000000000000000000000000000000
+	SHADOW_REG_EN13=32'b00000000000000000000000000000000
+	SHADOW_REG_EN14=32'b00000000000000000000000000000000
+	SHADOW_REG_EN15=32'b00000000000000000000000000000000
+	SHADOW_REG_EN16=32'b00000000000000000000000000000000
+	FIXED_PWM_POS_EN1=32'b00000000000000000000000000000001
+	FIXED_PWM_POS_EN2=32'b00000000000000000000000000000001
+	FIXED_PWM_POS_EN3=32'b00000000000000000000000000000001
+	FIXED_PWM_POS_EN4=32'b00000000000000000000000000000001
+	FIXED_PWM_POS_EN5=32'b00000000000000000000000000000001
+	FIXED_PWM_POS_EN6=32'b00000000000000000000000000000001
+	FIXED_PWM_POS_EN7=32'b00000000000000000000000000000001
+	FIXED_PWM_POS_EN8=32'b00000000000000000000000000000001
+	FIXED_PWM_POS_EN9=32'b00000000000000000000000000000001
+	FIXED_PWM_POS_EN10=32'b00000000000000000000000000000001
+	FIXED_PWM_POS_EN11=32'b00000000000000000000000000000001
+	FIXED_PWM_POS_EN12=32'b00000000000000000000000000000001
+	FIXED_PWM_POS_EN13=32'b00000000000000000000000000000001
+	FIXED_PWM_POS_EN14=32'b00000000000000000000000000000001
+	FIXED_PWM_POS_EN15=32'b00000000000000000000000000000001
+	FIXED_PWM_POS_EN16=32'b00000000000000000000000000000001
+	FIXED_PWM_POSEDGE1=32'b00000000000000000000000000000000
+	FIXED_PWM_POSEDGE2=32'b00000000000000000000000000000000
+	FIXED_PWM_POSEDGE3=32'b00000000000000000000000000000000
+	FIXED_PWM_POSEDGE4=32'b00000000000000000000000000000000
+	FIXED_PWM_POSEDGE5=32'b00000000000000000000000000000000
+	FIXED_PWM_POSEDGE6=32'b00000000000000000000000000000000
+	FIXED_PWM_POSEDGE7=32'b00000000000000000000000000000000
+	FIXED_PWM_POSEDGE8=32'b00000000000000000000000000000000
+	FIXED_PWM_POSEDGE9=32'b00000000000000000000000000000000
+	FIXED_PWM_POSEDGE10=32'b00000000000000000000000000000000
+	FIXED_PWM_POSEDGE11=32'b00000000000000000000000000000000
+	FIXED_PWM_POSEDGE12=32'b00000000000000000000000000000000
+	FIXED_PWM_POSEDGE13=32'b00000000000000000000000000000000
+	FIXED_PWM_POSEDGE14=32'b00000000000000000000000000000000
+	FIXED_PWM_POSEDGE15=32'b00000000000000000000000000000000
+	FIXED_PWM_POSEDGE16=32'b00000000000000000000000000000000
+	FIXED_PWM_NEG_EN1=32'b00000000000000000000000000000000
+	FIXED_PWM_NEG_EN2=32'b00000000000000000000000000000000
+	FIXED_PWM_NEG_EN3=32'b00000000000000000000000000000000
+	FIXED_PWM_NEG_EN4=32'b00000000000000000000000000000000
+	FIXED_PWM_NEG_EN5=32'b00000000000000000000000000000000
+	FIXED_PWM_NEG_EN6=32'b00000000000000000000000000000000
+	FIXED_PWM_NEG_EN7=32'b00000000000000000000000000000000
+	FIXED_PWM_NEG_EN8=32'b00000000000000000000000000000000
+	FIXED_PWM_NEG_EN9=32'b00000000000000000000000000000000
+	FIXED_PWM_NEG_EN10=32'b00000000000000000000000000000000
+	FIXED_PWM_NEG_EN11=32'b00000000000000000000000000000000
+	FIXED_PWM_NEG_EN12=32'b00000000000000000000000000000000
+	FIXED_PWM_NEG_EN13=32'b00000000000000000000000000000000
+	FIXED_PWM_NEG_EN14=32'b00000000000000000000000000000000
+	FIXED_PWM_NEG_EN15=32'b00000000000000000000000000000000
+	FIXED_PWM_NEG_EN16=32'b00000000000000000000000000000000
+	FIXED_PWM_NEGEDGE1=32'b00000000000000000000000000000000
+	FIXED_PWM_NEGEDGE2=32'b00000000000000000000000000000000
+	FIXED_PWM_NEGEDGE3=32'b00000000000000000000000000000000
+	FIXED_PWM_NEGEDGE4=32'b00000000000000000000000000000000
+	FIXED_PWM_NEGEDGE5=32'b00000000000000000000000000000000
+	FIXED_PWM_NEGEDGE6=32'b00000000000000000000000000000000
+	FIXED_PWM_NEGEDGE7=32'b00000000000000000000000000000000
+	FIXED_PWM_NEGEDGE8=32'b00000000000000000000000000000000
+	FIXED_PWM_NEGEDGE9=32'b00000000000000000000000000000000
+	FIXED_PWM_NEGEDGE10=32'b00000000000000000000000000000000
+	FIXED_PWM_NEGEDGE11=32'b00000000000000000000000000000000
+	FIXED_PWM_NEGEDGE12=32'b00000000000000000000000000000000
+	FIXED_PWM_NEGEDGE13=32'b00000000000000000000000000000000
+	FIXED_PWM_NEGEDGE14=32'b00000000000000000000000000000000
+	FIXED_PWM_NEGEDGE15=32'b00000000000000000000000000000000
+	FIXED_PWM_NEGEDGE16=32'b00000000000000000000000000000000
+	PWM_STRETCH_VALUE1=32'b00000000000000000000000000000000
+	PWM_STRETCH_VALUE2=32'b00000000000000000000000000000000
+	PWM_STRETCH_VALUE3=32'b00000000000000000000000000000000
+	PWM_STRETCH_VALUE4=32'b00000000000000000000000000000000
+	PWM_STRETCH_VALUE5=32'b00000000000000000000000000000000
+	PWM_STRETCH_VALUE6=32'b00000000000000000000000000000000
+	PWM_STRETCH_VALUE7=32'b00000000000000000000000000000000
+	PWM_STRETCH_VALUE8=32'b00000000000000000000000000000000
+	PWM_STRETCH_VALUE9=32'b00000000000000000000000000000000
+	PWM_STRETCH_VALUE10=32'b00000000000000000000000000000000
+	PWM_STRETCH_VALUE11=32'b00000000000000000000000000000000
+	PWM_STRETCH_VALUE12=32'b00000000000000000000000000000000
+	PWM_STRETCH_VALUE13=32'b00000000000000000000000000000000
+	PWM_STRETCH_VALUE14=32'b00000000000000000000000000000000
+	PWM_STRETCH_VALUE15=32'b00000000000000000000000000000000
+	PWM_STRETCH_VALUE16=32'b00000000000000000000000000000000
+	TACH_NUM=32'b00000000000000000000000000000001
+	TACH_EDGE1=32'b00000000000000000000000000000000
+	TACH_EDGE2=32'b00000000000000000000000000000000
+	TACH_EDGE3=32'b00000000000000000000000000000000
+	TACH_EDGE4=32'b00000000000000000000000000000000
+	TACH_EDGE5=32'b00000000000000000000000000000000
+	TACH_EDGE6=32'b00000000000000000000000000000000
+	TACH_EDGE7=32'b00000000000000000000000000000000
+	TACH_EDGE8=32'b00000000000000000000000000000000
+	TACH_EDGE9=32'b00000000000000000000000000000000
+	TACH_EDGE10=32'b00000000000000000000000000000000
+	TACH_EDGE11=32'b00000000000000000000000000000000
+	TACH_EDGE12=32'b00000000000000000000000000000000
+	TACH_EDGE13=32'b00000000000000000000000000000000
+	TACH_EDGE14=32'b00000000000000000000000000000000
+	TACH_EDGE15=32'b00000000000000000000000000000000
+	TACH_EDGE16=32'b00000000000000000000000000000000
+	TACHINT_ACT_LEVEL=32'b00000000000000000000000000000000
+	SEPARATE_PWM_CLK=32'b00000000000000000000000000000000
+	SYNC_RESET=32'b00000000000000000000000000000000
+	all_ones=16'b1111111111111111
+	DAC_MODE=16'b0000000000000000
+	SHADOW_REG_EN=16'b0000000000000000
+	FIXED_PWM_POS_EN=16'b1111111111111111
+	FIXED_PWM_NEG_EN=16'b0000000000000000
+	FIXED_PWM_POSEDGE=256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+	FIXED_PWM_NEGEDGE=256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+   Generated name = corepwm_Z3
+
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\reg_if.v":26:7:26:20|Synthesizing module corepwm_reg_if in library work.
+
+	PWM_NUM=32'b00000000000000000000000000000100
+	APB_DWIDTH=32'b00000000000000000000000000010000
+	FIXED_PRESCALE_EN=32'b00000000000000000000000000000001
+	FIXED_PRESCALE=32'b00000000000000000000000000000000
+	FIXED_PERIOD_EN=32'b00000000000000000000000000000000
+	FIXED_PERIOD=32'b00000000000000000000000000000001
+	DAC_MODE=16'b0000000000000000
+	SHADOW_REG_EN=16'b0000000000000000
+	FIXED_PWM_POS_EN=16'b1111111111111111
+	FIXED_PWM_POSEDGE=256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+	FIXED_PWM_NEG_EN=16'b0000000000000000
+	FIXED_PWM_NEGEDGE=256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+	SYNC_RESET=32'b00000000000000000000000000000000
+   Generated name = corepwm_reg_if_Z4
+
+@W: CL169 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\reg_if.v":240:0:240:5|Pruning unused register prescale_reg[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\reg_if.v":240:0:240:5|Pruning unused register pwm_enable_reg[16:1]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\reg_if.v":168:0:168:5|Pruning unused register gen_pos_neg_regs[4].pwm_posedge_reg[64:49]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\reg_if.v":168:0:168:5|Pruning unused register gen_pos_neg_regs[4].pwm_negedge_reg[64:49]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\reg_if.v":168:0:168:5|Pruning unused register gen_pos_neg_regs[3].pwm_posedge_reg[48:33]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\reg_if.v":168:0:168:5|Pruning unused register gen_pos_neg_regs[3].pwm_negedge_reg[48:33]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\reg_if.v":168:0:168:5|Pruning unused register gen_pos_neg_regs[2].pwm_posedge_reg[32:17]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\reg_if.v":168:0:168:5|Pruning unused register gen_pos_neg_regs[2].pwm_negedge_reg[32:17]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\reg_if.v":168:0:168:5|Pruning unused register gen_pos_neg_regs[1].pwm_posedge_reg[16:1]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\reg_if.v":168:0:168:5|Pruning unused register gen_pos_neg_regs[1].pwm_negedge_reg[16:1]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\reg_if.v":120:0:120:5|Pruning unused register gen_pos_neg_shregs[4].psh_posedge_reg[64:49]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\reg_if.v":120:0:120:5|Pruning unused register gen_pos_neg_shregs[3].psh_posedge_reg[48:33]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\reg_if.v":120:0:120:5|Pruning unused register gen_pos_neg_shregs[2].psh_posedge_reg[32:17]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\reg_if.v":120:0:120:5|Pruning unused register gen_pos_neg_shregs[1].psh_posedge_reg[16:1]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\reg_if.v":93:0:93:5|Pruning unused register psh_prescale_reg[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\reg_if.v":93:0:93:5|Pruning unused register psh_enable_reg2[16:9]. Make sure that there are no unused intermediate registers.
+@W: CL271 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\reg_if.v":93:0:93:5|Pruning unused bits 8 to 5 of psh_enable_reg1[8:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\timebase.v":26:7:26:22|Synthesizing module corepwm_timebase in library work.
+
+	APB_DWIDTH=32'b00000000000000000000000000010000
+	SYNC_RESET=32'b00000000000000000000000000000000
+   Generated name = corepwm_timebase_16s_0s
+
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\pwm_gen.v":26:7:26:21|Synthesizing module corepwm_pwm_gen in library work.
+
+	PWM_NUM=32'b00000000000000000000000000000100
+	APB_DWIDTH=32'b00000000000000000000000000010000
+	DAC_MODE=16'b0000000000000000
+	SYNC_RESET=32'b00000000000000000000000000000000
+   Generated name = corepwm_pwm_gen_4s_16s_0_0s
+
+@W: CG133 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\pwm_gen.v":44:31:44:33|Object acc is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v":182:7:182:13|Removing wire TACHINT, as there is no assignment to it.
+@W: CG133 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v":195:11:195:21|Object PRDATA_TACH is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v":196:19:196:39|Removing wire PWM_STRETCH_VALUE_int, as there is no assignment to it.
+@W: CG360 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v":197:20:197:28|Removing wire TACH_EDGE, as there is no assignment to it.
+@W: CG360 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v":198:5:198:16|Removing wire tachint_mask, as there is no assignment to it.
+@W: CG133 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v":199:10:199:21|Object TACHPRESCALE is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v":200:19:200:29|Object PWM_STRETCH is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v":201:19:201:29|Object TACHIRQMASK is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v":202:19:202:26|Object TACHMODE is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v":204:11:204:27|Object tach_prescale_cnt is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v":205:11:205:29|Object tach_prescale_value is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v":206:11:206:31|Object prescale_decode_value is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v":207:10:207:21|Object tach_cnt_clk is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v":209:20:209:32|Removing wire update_status, as there is no assignment to it.
+@W: CG133 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v":1196:7:1196:7|Object t is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v":439:0:439:5|Pruning unused register gen_tachstatus[0].TACHSTATUS[0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v":439:0:439:5|Pruning unused register gen_tachstatus[0].status_clear[0]. Make sure that there are no unused intermediate registers.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.v":362:7:362:12|Synthesizing module CLKINT in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.v":372:7:372:9|Synthesizing module GND in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.v":727:7:727:9|Synthesizing module CCC in library work.
+
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC\FCCC_0\FPGA_SoC_FCCC_0_FCCC.v":5:7:5:26|Synthesizing module FPGA_SoC_FCCC_0_FCCC in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.v":286:7:286:11|Synthesizing module BIBUF in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.v":268:7:268:11|Synthesizing module INBUF in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.v":280:7:280:13|Synthesizing module TRIBUFF in library work.
+
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC_MSS\FPGA_SoC_MSS_syn.v":5:7:5:13|Synthesizing module MSS_010 in library work.
+
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC_MSS\FPGA_SoC_MSS.v":9:7:9:18|Synthesizing module FPGA_SoC_MSS in library work.
+
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":21:7:21:13|Synthesizing module LCD_RGB in library work.
+
+@W: CG532 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":432:1:432:7|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG532 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":448:1:448:7|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CL169 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Pruning unused register ram_data_r[131:0]. Make sure that there are no unused intermediate registers.
+@N: CL134 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Found RAM color_word_lsb, depth=240, width=8
+@N: CL134 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Found RAM color_word_msb, depth=240, width=8
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_setxy_10_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_setxy_9_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_setxy_8_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_setxy_7_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_setxy_7_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_setxy_7_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_setxy_6_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_setxy_6_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_setxy_6_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_setxy_5_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_setxy_5_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_setxy_5_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_setxy_5_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_setxy_4_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_setxy_4_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_setxy_3_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_setxy_3_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_setxy_3_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_setxy_2_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_setxy_2_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_setxy_2_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_setxy_1_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_setxy_1_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_setxy_1_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_setxy_0_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_setxy_0_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_setxy_0_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_setxy_0_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_setxy_0_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_setxy_0_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_59_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_59_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_59_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_59_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_59_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_58_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_58_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_58_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_58_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_57_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_57_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_57_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_56_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_56_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_56_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_56_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_55_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_55_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_54_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_54_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_54_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_53_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_53_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_53_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_53_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_53_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_52_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_52_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_52_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_51_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_51_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_51_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_51_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_51_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_50_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_50_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_50_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_49_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_49_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_49_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_49_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_49_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_49_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_48_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_48_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_48_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_48_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_47_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_47_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_47_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_47_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_47_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_47_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_46_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_46_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_46_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_45_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_45_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_45_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_45_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_44_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_44_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_44_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_44_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_43_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_43_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_43_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_42_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_42_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_42_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_42_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_42_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_41_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_41_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_41_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_40_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_40_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_40_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_40_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_40_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_39_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_39_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_39_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_39_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_38_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_38_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_38_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_37_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_37_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_37_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_37_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_37_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_36_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_36_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_36_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_36_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_36_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_36_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_36_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_36_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_35_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_35_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_35_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_34_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_34_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_34_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_34_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_34_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_34_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_34_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_33_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_33_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_33_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_33_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_33_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_32_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_32_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_32_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_32_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_32_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_32_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_31_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_31_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_31_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_31_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_31_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_30_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_30_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_30_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_30_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_30_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_29_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_29_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_29_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_29_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_28_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_28_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_28_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_27_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_27_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_27_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_27_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_26_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_26_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_26_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_26_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_26_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_25_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_25_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_25_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_25_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_25_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_24_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_24_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_24_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_23_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_23_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_23_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_23_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_22_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_22_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_22_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_22_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_22_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_21_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_21_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_21_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_21_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_21_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_20_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_20_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_20_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_20_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_20_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_20_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_20_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_19_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_19_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_18_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_18_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_18_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_17_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_17_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_17_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_17_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_17_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_16_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_16_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_16_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_16_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_16_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_16_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_15_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_15_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_14_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_14_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_14_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_14_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_14_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_13_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_13_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_13_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_13_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_12_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_12_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_12_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_12_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_12_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_12_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_12_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_11_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_11_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_11_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_11_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_11_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_10_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_10_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_10_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_10_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_9_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_9_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_9_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_9_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_8_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_8_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_8_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_7_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_7_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_7_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_7_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_6_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_6_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_6_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_6_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_5_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_5_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_5_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_5_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_5_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_5_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_5_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_4_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_4_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_4_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_4_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_4_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_4_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_3_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_3_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_3_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_3_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_3_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_2_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_2_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_2_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_1_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_1_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_1_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_1_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal reg_init_0_[8:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_0_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_0_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Sharing sequential element reg_init_0_. Add a syn_preserve attribute to the element to prevent sharing.
+@A: CL282 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal lcd_rst_n_out. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal lcd_data_out. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal lcd_cs_out. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@A: CL282 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal lcd_clk_out. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal data_reg[8:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal color_y[15:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal color_x[15:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Feedback mux created for signal cnt_word[2:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to lcd_cs_out assign 0, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_0_[8:5] assign 0, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_1_[5:4] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_1_[2:1] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_3_[5:3] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_5_[5:4] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_6_[3:2] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_7_[3:2] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_9_[5:4] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_9_[1:0] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_10_[5:4] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_10_[1:0] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_11_[5:4] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_11_[2:0] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_12_[5:4] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_13_[7] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_13_[5:3] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_13_[1:0] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_14_[4:3] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_15_[7:6] assign 1, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_15_[5:0] assign 0, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_16_[3:2] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_17_[7:6] assign 1, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_18_[7:1] assign 0, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_19_[7:6] assign 1, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_19_[5:2] assign 0, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_19_[1:0] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_21_[7:6] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_23_[7:6] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_23_[2:1] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_24_[3:0] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_25_[7:6] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_26_[8:7] assign 1, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_26_[4:3] assign 0, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_27_[8:7] assign 1, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_27_[6] assign 0, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_28_[7:5] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_29_[8:6] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_31_[3:2] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_33_[1:0] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_34_[1:0] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_35_[5:0] assign 1, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_36_[3] assign 0, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_37_[5:4] assign 0, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_37_[3:2] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_38_[4:3] assign 1, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_38_[2:0] assign 0, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_39_[3:2] assign 1, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_39_[1] assign 0, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_40_[1:0] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_41_[4:0] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_42_[1:0] assign 1, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_43_[8] assign 0, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_43_[7:5] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_44_[8:6] assign 1, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_45_[7:3] assign 0, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_46_[7:4] assign 0, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_46_[3:2] assign 1, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_48_[3:2] assign 0, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_48_[1:0] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_49_[3:2] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_50_[5:0] assign 1, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_51_[5:3] assign 0, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_51_[2] assign 1, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_52_[7] assign 0, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_52_[6] assign 1, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_52_[5] assign 0, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_52_[4] assign 1, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_52_[3:1] assign 0, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_53_[3:0] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_54_[4:0] assign 1, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_55_[7:5] assign 0, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_55_[4:0] assign 1, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_56_[4:0] assign 0, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_57_[7:6] assign 0, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_57_[4:2] assign 0, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_57_[1:0] assign 1, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_58_[4:1] assign 0, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_59_[2:1] assign 0, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_init_59_[0] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_setxy_0_[1] assign 1, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_setxy_0_[0] assign 0, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_setxy_4_[8:4] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_setxy_5_[3] assign 1, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_setxy_5_[2] assign 0, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_setxy_5_[1:0] assign 1, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_setxy_8_[8] assign 1, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_setxy_8_[7:0] assign 0, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_setxy_9_[8:4] assign 1, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_setxy_9_[3:0] assign 0, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_setxy_10_[8:6] assign 0, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_setxy_10_[5] assign 1, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_setxy_10_[4] assign 0, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_setxy_10_[3:2] assign 1, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|All reachable assignments to reg_setxy_10_[1:0] assign 0, register removed by optimization
+@N: CL189 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Register bit color_y[0] is always 0.
+@N: CL189 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Register bit color_y[1] is always 0.
+@N: CL189 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Register bit color_y[2] is always 0.
+@N: CL189 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Register bit color_y[3] is always 0.
+@N: CL189 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Register bit color_y[4] is always 0.
+@N: CL189 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Register bit color_y[11] is always 1.
+@N: CL189 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Register bit color_y[12] is always 1.
+@N: CL189 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Register bit color_y[13] is always 1.
+@N: CL189 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Register bit color_y[14] is always 1.
+@N: CL189 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Register bit color_y[15] is always 1.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Optimizing register bit state_back[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Pruning register bit 2 of state_back[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Pruning register bits 15 to 11 of color_y[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Pruning register bits 4 to 0 of color_y[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":11:7:11:20|Synthesizing module RCOSC_25_50MHZ in library work.
+
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC\OSC_0\FPGA_SoC_OSC_0_OSC.v":5:7:5:24|Synthesizing module FPGA_SoC_OSC_0_OSC in library work.
+
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":21:7:21:12|Synthesizing module PWMctr in library work.
+
+@W: CL113 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":36:0:36:5|Feedback mux created for signal period[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":36:0:36:5|All reachable assignments to period[15:7] assign 0, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":36:0:36:5|All reachable assignments to period[6:5] assign 1, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":36:0:36:5|All reachable assignments to period[4:3] assign 0, register removed by optimization
+@W: CL251 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":36:0:36:5|All reachable assignments to period[2] assign 1, register removed by optimization
+@W: CL250 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":36:0:36:5|All reachable assignments to period[1:0] assign 0, register removed by optimization
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\hdl\reg_demo.v":21:7:21:14|Synthesizing module reg_demo in library work.
+
+@N: CL134 :"D:\GitHub\FPGA\FPGA_SoC\hdl\reg_demo.v":53:0:53:5|Found RAM mem, depth=16, width=8
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\hdl\reg_apb_demo.v":22:7:22:18|Synthesizing module reg_apb_demo in library work.
+
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\hdl\reg16x8.v":21:7:21:13|Synthesizing module reg16x8 in library work.
+
+@A: CL291 :"D:\GitHub\FPGA\FPGA_SoC\hdl\reg16x8.v":52:0:52:5|Register mem_0_ with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@A: CL291 :"D:\GitHub\FPGA\FPGA_SoC\hdl\reg16x8.v":52:0:52:5|Register mem_1_ with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@A: CL291 :"D:\GitHub\FPGA\FPGA_SoC\hdl\reg16x8.v":52:0:52:5|Register mem_2_ with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@A: CL291 :"D:\GitHub\FPGA\FPGA_SoC\hdl\reg16x8.v":52:0:52:5|Register mem_3_ with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@A: CL291 :"D:\GitHub\FPGA\FPGA_SoC\hdl\reg16x8.v":52:0:52:5|Register mem_4_ with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@A: CL291 :"D:\GitHub\FPGA\FPGA_SoC\hdl\reg16x8.v":52:0:52:5|Register mem_5_ with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@A: CL291 :"D:\GitHub\FPGA\FPGA_SoC\hdl\reg16x8.v":52:0:52:5|Register mem_6_ with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@A: CL291 :"D:\GitHub\FPGA\FPGA_SoC\hdl\reg16x8.v":52:0:52:5|Register mem_7_ with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@A: CL291 :"D:\GitHub\FPGA\FPGA_SoC\hdl\reg16x8.v":52:0:52:5|Register mem_8_ with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@A: CL291 :"D:\GitHub\FPGA\FPGA_SoC\hdl\reg16x8.v":52:0:52:5|Register mem_9_ with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@A: CL291 :"D:\GitHub\FPGA\FPGA_SoC\hdl\reg16x8.v":52:0:52:5|Register mem_10_ with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@A: CL291 :"D:\GitHub\FPGA\FPGA_SoC\hdl\reg16x8.v":52:0:52:5|Register mem_11_ with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@A: CL291 :"D:\GitHub\FPGA\FPGA_SoC\hdl\reg16x8.v":52:0:52:5|Register mem_12_ with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@A: CL291 :"D:\GitHub\FPGA\FPGA_SoC\hdl\reg16x8.v":52:0:52:5|Register mem_13_ with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@A: CL291 :"D:\GitHub\FPGA\FPGA_SoC\hdl\reg16x8.v":52:0:52:5|Register mem_14_ with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@A: CL291 :"D:\GitHub\FPGA\FPGA_SoC\hdl\reg16x8.v":52:0:52:5|Register mem_15_ with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\hdl\reg_apb_wrp.v":21:7:21:17|Synthesizing module reg_apb_wrp in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.v":718:7:718:14|Synthesizing module SYSRESET in library work.
+
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC\FPGA_SoC.v":9:7:9:14|Synthesizing module FPGA_SoC in library work.
+
+@W: CL246 :"D:\GitHub\FPGA\FPGA_SoC\hdl\reg_apb_wrp.v":35:21:35:25|Input port bits 7 to 6 of PADDR[7:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"D:\GitHub\FPGA\FPGA_SoC\hdl\reg_apb_wrp.v":35:21:35:25|Input port bits 1 to 0 of PADDR[7:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"D:\GitHub\FPGA\FPGA_SoC\hdl\reg_apb_demo.v":37:21:37:25|Input port bits 7 to 6 of PADDR[7:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"D:\GitHub\FPGA\FPGA_SoC\hdl\reg_apb_demo.v":37:21:37:25|Input port bits 1 to 0 of PADDR[7:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":51:0:51:5|Optimizing register bit timer[24] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":51:0:51:5|Optimizing register bit timer[25] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":51:0:51:5|Optimizing register bit timer[26] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":51:0:51:5|Optimizing register bit timer[27] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":51:0:51:5|Optimizing register bit timer[28] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":51:0:51:5|Optimizing register bit timer[29] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":51:0:51:5|Optimizing register bit timer[30] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":51:0:51:5|Optimizing register bit timer[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":36:0:36:5|Optimizing register bit CNT[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":36:0:36:5|Optimizing register bit CNT[8] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":36:0:36:5|Optimizing register bit CNT[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":36:0:36:5|Optimizing register bit CNT[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":36:0:36:5|Optimizing register bit CNT[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":36:0:36:5|Optimizing register bit CNT[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":36:0:36:5|Optimizing register bit CNT[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":36:0:36:5|Optimizing register bit CNT[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":36:0:36:5|Optimizing register bit CNT[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":36:0:36:5|Optimizing register bit CNT[16] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":36:0:36:5|Optimizing register bit CNT[17] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":36:0:36:5|Optimizing register bit CNT[18] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":36:0:36:5|Optimizing register bit CNT[19] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":36:0:36:5|Optimizing register bit CNT[20] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":36:0:36:5|Optimizing register bit CNT[21] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":36:0:36:5|Optimizing register bit CNT[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":36:0:36:5|Optimizing register bit CNT[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":36:0:36:5|Optimizing register bit CNT[24] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":36:0:36:5|Optimizing register bit CNT[25] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":36:0:36:5|Optimizing register bit CNT[26] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":36:0:36:5|Optimizing register bit CNT[27] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":36:0:36:5|Optimizing register bit CNT[28] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":36:0:36:5|Optimizing register bit CNT[29] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":36:0:36:5|Optimizing register bit CNT[30] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":36:0:36:5|Optimizing register bit CNT[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":36:0:36:5|Pruning register bits 31 to 7 of CNT[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":51:0:51:5|Pruning register bits 31 to 24 of timer[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL157 :"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC\OSC_0\FPGA_SoC_OSC_0_OSC.v":16:7:16:24|*Output RCOSC_25_50MHZ_O2F has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC\OSC_0\FPGA_SoC_OSC_0_OSC.v":17:7:17:20|*Output RCOSC_1MHZ_CCC has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC\OSC_0\FPGA_SoC_OSC_0_OSC.v":18:7:18:20|*Output RCOSC_1MHZ_O2F has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC\OSC_0\FPGA_SoC_OSC_0_OSC.v":19:7:19:16|*Output XTLOSC_CCC has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC\OSC_0\FPGA_SoC_OSC_0_OSC.v":20:7:20:16|*Output XTLOSC_O2F has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC\OSC_0\FPGA_SoC_OSC_0_OSC.v":14:7:14:9|Input XTL is unused.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Optimizing register bit cnt_write[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Optimizing register bit cnt[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Optimizing register bit cnt[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Optimizing register bit cnt[8] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Optimizing register bit cnt[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Optimizing register bit cnt[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Optimizing register bit cnt[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Optimizing register bit cnt[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Optimizing register bit cnt[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Optimizing register bit cnt[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Optimizing register bit cnt[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Pruning register bits 15 to 6 of cnt[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Pruning register bit 5 of cnt_write[5:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 6 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+@W: CL249 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Initial value is not supported on state machine state
+@N: CL201 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Trying to extract state machine for register cnt_scan.
+Extracted state machine for register cnt_scan
+State machine has 6 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+@N: CL201 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Trying to extract state machine for register cnt_main.
+Extracted state machine for register cnt_main
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Trying to extract state machine for register cnt_init.
+Extracted state machine for register cnt_init
+State machine has 6 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+@W: CL279 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Pruning register bits 10 to 6 of color_y[10:5]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Pruning register bits 15 to 12 of color_x[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Pruning register bits 10 to 6 of color_x[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Pruning register bits 4 to 1 of color_x[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":32:16:32:27|Input ram_lcd_data is unused.
+@W: CL246 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v":175:13:175:17|Input port bits 1 to 0 of PADDR[7:0] are unused. Assign logic for all port bits or change the input port size.
+@A: CL153 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v":200:19:200:29|*Unassigned bits of PWM_STRETCH[3:0] are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL157 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v":182:7:182:13|*Output TACHINT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v":181:21:181:26|Input TACHIN is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v":184:6:184:12|Input PWM_CLK is unused.
+@W: CL246 :"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":182:26:182:31|Input port bits 31 to 8 of PWDATA[31:0] are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":72:36:72:40|Input IADDR is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":73:13:73:19|Input PRESETN is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":74:13:74:16|Input PCLK is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":107:18:107:25|Input PRDATAS3 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":108:18:108:25|Input PRDATAS4 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":110:18:110:25|Input PRDATAS6 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":111:18:111:25|Input PRDATAS7 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":112:18:112:25|Input PRDATAS8 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":113:18:113:25|Input PRDATAS9 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":114:18:114:26|Input PRDATAS10 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":115:18:115:26|Input PRDATAS11 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":116:18:116:26|Input PRDATAS12 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":117:18:117:26|Input PRDATAS13 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":118:18:118:26|Input PRDATAS14 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":119:18:119:26|Input PRDATAS15 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":124:13:124:20|Input PREADYS3 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":125:13:125:20|Input PREADYS4 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":127:13:127:20|Input PREADYS6 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":128:13:128:20|Input PREADYS7 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":129:13:129:20|Input PREADYS8 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":130:13:130:20|Input PREADYS9 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":131:13:131:21|Input PREADYS10 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":132:13:132:21|Input PREADYS11 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":133:13:133:21|Input PREADYS12 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":134:13:134:21|Input PREADYS13 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":135:13:135:21|Input PREADYS14 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":136:13:136:21|Input PREADYS15 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":141:13:141:21|Input PSLVERRS3 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":142:13:142:21|Input PSLVERRS4 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":144:13:144:21|Input PSLVERRS6 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":145:13:145:21|Input PSLVERRS7 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":146:13:146:21|Input PSLVERRS8 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":147:13:147:21|Input PSLVERRS9 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":148:13:148:22|Input PSLVERRS10 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":149:13:149:22|Input PSLVERRS11 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":150:13:150:22|Input PSLVERRS12 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":151:13:151:22|Input PSLVERRS13 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":152:13:152:22|Input PSLVERRS14 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":153:13:153:22|Input PSLVERRS15 is unused.
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 86MB peak: 92MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jul 07 15:11:39 2023
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 73MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jul 07 15:11:39 2023
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jul 07 15:11:39 2023
+
+###########################################################]

@@ -1,0 +1,784 @@
+# Fri Jul 07 15:11:41 2023
+
+Synopsys Generic Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:56:37
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 138MB)
+
+@N: MO111 :"d:\github\fpga\fpga_soc\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\corepwm.v":182:7:182:13|Tristate driver TACHINT (in view: work.corepwm_Z3(verilog)) on net TACHINT (in view: work.corepwm_Z3(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\github\fpga\fpga_soc\component\work\fpga_soc\osc_0\fpga_soc_osc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.FPGA_SoC_OSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.FPGA_SoC_OSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\github\fpga\fpga_soc\component\work\fpga_soc\osc_0\fpga_soc_osc_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.FPGA_SoC_OSC_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.FPGA_SoC_OSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\github\fpga\fpga_soc\component\work\fpga_soc\osc_0\fpga_soc_osc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.FPGA_SoC_OSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.FPGA_SoC_OSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\github\fpga\fpga_soc\component\work\fpga_soc\osc_0\fpga_soc_osc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.FPGA_SoC_OSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.FPGA_SoC_OSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\github\fpga\fpga_soc\component\work\fpga_soc\osc_0\fpga_soc_osc_0_osc.v":16:7:16:24|Tristate driver RCOSC_25_50MHZ_O2F (in view: work.FPGA_SoC_OSC_0_OSC(verilog)) on net RCOSC_25_50MHZ_O2F (in view: work.FPGA_SoC_OSC_0_OSC(verilog)) has its enable tied to GND.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: MO160 :"d:\github\fpga\fpga_soc\component\work\fpga_soc\coregpio_0\rtl\vlog\core\coregpio.v":464:0:464:5|Register bit xhdl1\.GEN_BITS\[0\]\.APB_32\.edge_both[0] (in view view:work.FPGA_SoC_CoreGPIO_0_CoreGPIO_Z2(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: FA239 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":258:23:258:37|ROM data_reg_5[8:3] (in view: work.LCD_RGB(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":258:23:258:37|ROM data_reg_5[1] (in view: work.LCD_RGB(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":258:23:258:37|ROM data_reg_5[8:3] (in view: work.LCD_RGB(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":258:23:258:37|Found ROM .delname. (in view: work.LCD_RGB(verilog)) with 11 words by 6 bits.
+@W: FA239 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":258:23:258:37|ROM data_reg_5[1] (in view: work.LCD_RGB(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":258:23:258:37|Found ROM .delname. (in view: work.LCD_RGB(verilog)) with 11 words by 1 bit.
+@W: BN132 :"d:\github\fpga\fpga_soc\component\work\fpga_soc\coregpio_0\rtl\vlog\core\coregpio.v":449:0:449:1|Removing user instance CoreGPIO_0.xhdl1.GEN_BITS[0].APB_32.edge_neg_4[0] because it is equivalent to instance CoreGPIO_0.xhdl1.GEN_BITS[0].APB_32.edge_pos_4[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\github\fpga\fpga_soc\component\work\fpga_soc\coregpio_0\rtl\vlog\core\coregpio.v":444:0:444:5|Removing sequential instance CoreGPIO_0.xhdl1.GEN_BITS[0].APB_32.edge_neg[0] because it is equivalent to instance CoreGPIO_0.xhdl1.GEN_BITS[0].APB_32.edge_pos[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: FX1039 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":87:1:87:6|User-specified initial value defined for instance LCD_RGB_0.state_back[1:0] is being ignored. 
+@W: FX1039 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":87:1:87:6|User-specified initial value defined for instance LCD_RGB_0.color_y[5] is being ignored. 
+@W: FX1039 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":87:1:87:6|User-specified initial value defined for instance LCD_RGB_0.color_x[11] is being ignored. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 138MB)
+
+@W: FX107 :"d:\github\fpga\fpga_soc\hdl\reg_demo.v":53:0:53:5|RAM reg_apb_demo_0.reg_demo_0.mem[7:0] (in view: work.FPGA_SoC(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: MO231 :"d:\github\fpga\fpga_soc\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\timebase.v":73:0:73:5|Found counter in view:work.corepwm_timebase_16s_0s(verilog) instance period_cnt[15:0] 
+@N: MO231 :"d:\github\fpga\fpga_soc\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\timebase.v":51:0:51:5|Found counter in view:work.corepwm_timebase_16s_0s(verilog) instance prescale_cnt[15:0] 
+@N: MF179 :"d:\github\fpga\fpga_soc\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\pwm_gen.v":84:17:84:82|Found 16 by 16 bit equality operator ('==') PWM_output_generation\[4\]\.genblk1\.un1_period_cnt_1 (in view: work.corepwm_pwm_gen_4s_16s_0_0s(verilog))
+@N: MF179 :"d:\github\fpga\fpga_soc\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\pwm_gen.v":84:17:84:82|Found 16 by 16 bit equality operator ('==') PWM_output_generation\[1\]\.genblk1\.un1_period_cnt_1 (in view: work.corepwm_pwm_gen_4s_16s_0_0s(verilog))
+@N: MF179 :"d:\github\fpga\fpga_soc\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\pwm_gen.v":84:17:84:82|Found 16 by 16 bit equality operator ('==') PWM_output_generation\[2\]\.genblk1\.un1_period_cnt_1 (in view: work.corepwm_pwm_gen_4s_16s_0_0s(verilog))
+@N: MF179 :"d:\github\fpga\fpga_soc\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\pwm_gen.v":84:17:84:82|Found 16 by 16 bit equality operator ('==') PWM_output_generation\[3\]\.genblk1\.un1_period_cnt_1 (in view: work.corepwm_pwm_gen_4s_16s_0_0s(verilog))
+Encoding state machine state[5:0] (in view: work.LCD_RGB(verilog))
+original code -> new code
+   000 -> 000001
+   001 -> 000010
+   010 -> 000100
+   011 -> 001000
+   100 -> 010000
+   101 -> 100000
+Encoding state machine cnt_scan[5:0] (in view: work.LCD_RGB(verilog))
+original code -> new code
+   000 -> 000001
+   001 -> 000010
+   010 -> 000100
+   011 -> 001000
+   100 -> 010000
+   101 -> 100000
+Encoding state machine cnt_main[3:0] (in view: work.LCD_RGB(verilog))
+original code -> new code
+   000 -> 00
+   001 -> 01
+   010 -> 10
+   011 -> 11
+@N: MO225 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":87:1:87:6|There are no possible illegal states for state machine cnt_main[3:0] (in view: work.LCD_RGB(verilog)); safe FSM implementation is not required.
+Encoding state machine cnt_init[5:0] (in view: work.LCD_RGB(verilog))
+original code -> new code
+   000 -> 000001
+   001 -> 000010
+   010 -> 000100
+   011 -> 001000
+   100 -> 010000
+   101 -> 100000
+@W: MO161 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":87:1:87:6|Register bit color_x[1] (in view view:work.LCD_RGB(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@N: MO231 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":87:1:87:6|Found counter in view:work.LCD_RGB(verilog) instance y_cnt[7:0] 
+@N: MO231 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":87:1:87:6|Found counter in view:work.LCD_RGB(verilog) instance cnt[5:0] 
+@N: MO231 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":87:1:87:6|Found counter in view:work.LCD_RGB(verilog) instance cnt_write[4:0] 
+@N: MO231 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":87:1:87:6|Found counter in view:work.LCD_RGB(verilog) instance cnt_delay[15:0] 
+@W: FX107 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":87:1:87:6|RAM color_word_lsb[7:0] (in view: work.LCD_RGB(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":87:1:87:6|RAM color_word_msb[7:0] (in view: work.LCD_RGB(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: MO160 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":87:1:87:6|Register bit num_delay[13] (in view view:work.LCD_RGB(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":87:1:87:6|Register bit num_delay[12] (in view view:work.LCD_RGB(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":87:1:87:6|Register bit num_delay[10] (in view view:work.LCD_RGB(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO161 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":87:1:87:6|Register bit num_delay[4] (in view view:work.LCD_RGB(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":87:1:87:6|Register bit num_delay[2] (in view view:work.LCD_RGB(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":87:1:87:6|Register bit num_delay[0] (in view view:work.LCD_RGB(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: BN132 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":87:1:87:6|Removing instance LCD_RGB_0.num_delay[7] because it is equivalent to instance LCD_RGB_0.num_delay[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":87:1:87:6|Removing instance LCD_RGB_0.num_delay[3] because it is equivalent to instance LCD_RGB_0.num_delay[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":87:1:87:6|Removing instance LCD_RGB_0.num_delay[15] because it is equivalent to instance LCD_RGB_0.num_delay[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":87:1:87:6|Removing instance LCD_RGB_0.num_delay[6] because it is equivalent to instance LCD_RGB_0.num_delay[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":87:1:87:6|Removing instance LCD_RGB_0.num_delay[9] because it is equivalent to instance LCD_RGB_0.num_delay[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 157MB peak: 158MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 149MB peak: 158MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 149MB peak: 158MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 158MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 158MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 154MB peak: 158MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 154MB peak: 158MB)
+
+@N: MO106 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":239:23:239:36|Found ROM .delname. (in view: work.FPGA_SoC(verilog)) with 60 words by 9 bits.
+@N: BN362 :"d:\github\fpga\fpga_soc\hdl\pwm.v":51:0:51:5|Removing sequential instance PWMctr_0.h_time[0] (in view: work.FPGA_SoC(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\github\fpga\fpga_soc\hdl\pwm.v":51:0:51:5|Removing sequential instance PWMctr_0.h_time[1] (in view: work.FPGA_SoC(verilog)) because it does not drive other instances.
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 153MB peak: 158MB)
+
+@N: BN362 :"d:\github\fpga\fpga_soc\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\timebase.v":51:0:51:5|Removing sequential instance corepwm_0.genblk5\.genblk1\.corepwm_timebase.prescale_cnt[0] (in view: work.FPGA_SoC(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\github\fpga\fpga_soc\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\timebase.v":51:0:51:5|Removing sequential instance corepwm_0.genblk5\.genblk1\.corepwm_timebase.prescale_cnt[1] (in view: work.FPGA_SoC(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\github\fpga\fpga_soc\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\timebase.v":51:0:51:5|Removing sequential instance corepwm_0.genblk5\.genblk1\.corepwm_timebase.prescale_cnt[2] (in view: work.FPGA_SoC(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\github\fpga\fpga_soc\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\timebase.v":51:0:51:5|Removing sequential instance corepwm_0.genblk5\.genblk1\.corepwm_timebase.prescale_cnt[3] (in view: work.FPGA_SoC(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\github\fpga\fpga_soc\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\timebase.v":51:0:51:5|Removing sequential instance corepwm_0.genblk5\.genblk1\.corepwm_timebase.prescale_cnt[4] (in view: work.FPGA_SoC(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\github\fpga\fpga_soc\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\timebase.v":51:0:51:5|Removing sequential instance corepwm_0.genblk5\.genblk1\.corepwm_timebase.prescale_cnt[5] (in view: work.FPGA_SoC(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\github\fpga\fpga_soc\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\timebase.v":51:0:51:5|Removing sequential instance corepwm_0.genblk5\.genblk1\.corepwm_timebase.prescale_cnt[6] (in view: work.FPGA_SoC(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\github\fpga\fpga_soc\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\timebase.v":51:0:51:5|Removing sequential instance corepwm_0.genblk5\.genblk1\.corepwm_timebase.prescale_cnt[7] (in view: work.FPGA_SoC(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\github\fpga\fpga_soc\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\timebase.v":51:0:51:5|Removing sequential instance corepwm_0.genblk5\.genblk1\.corepwm_timebase.prescale_cnt[8] (in view: work.FPGA_SoC(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\github\fpga\fpga_soc\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\timebase.v":51:0:51:5|Removing sequential instance corepwm_0.genblk5\.genblk1\.corepwm_timebase.prescale_cnt[9] (in view: work.FPGA_SoC(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\github\fpga\fpga_soc\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\timebase.v":51:0:51:5|Removing sequential instance corepwm_0.genblk5\.genblk1\.corepwm_timebase.prescale_cnt[10] (in view: work.FPGA_SoC(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\github\fpga\fpga_soc\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\timebase.v":51:0:51:5|Removing sequential instance corepwm_0.genblk5\.genblk1\.corepwm_timebase.prescale_cnt[11] (in view: work.FPGA_SoC(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\github\fpga\fpga_soc\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\timebase.v":51:0:51:5|Removing sequential instance corepwm_0.genblk5\.genblk1\.corepwm_timebase.prescale_cnt[12] (in view: work.FPGA_SoC(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\github\fpga\fpga_soc\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\timebase.v":51:0:51:5|Removing sequential instance corepwm_0.genblk5\.genblk1\.corepwm_timebase.prescale_cnt[13] (in view: work.FPGA_SoC(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\github\fpga\fpga_soc\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\timebase.v":51:0:51:5|Removing sequential instance corepwm_0.genblk5\.genblk1\.corepwm_timebase.prescale_cnt[14] (in view: work.FPGA_SoC(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\github\fpga\fpga_soc\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\timebase.v":51:0:51:5|Removing sequential instance corepwm_0.genblk5\.genblk1\.corepwm_timebase.prescale_cnt[15] (in view: work.FPGA_SoC(verilog)) because it does not drive other instances.
+
+Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 179MB peak: 181MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:03s		    -1.37ns		1278 /       412
+   2		0h:00m:03s		    -1.37ns		1191 /       412
+   3		0h:00m:03s		    -0.55ns		1192 /       412
+@N: FX271 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":87:1:87:6|Replicating instance LCD_RGB_0.x_cnt[3] (in view: work.FPGA_SoC(verilog)) with 17 loads 2 times to improve timing.
+@N: FX271 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":87:1:87:6|Replicating instance LCD_RGB_0.x_cnt[2] (in view: work.FPGA_SoC(verilog)) with 17 loads 2 times to improve timing.
+@N: FX271 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":87:1:87:6|Replicating instance LCD_RGB_0.x_cnt[1] (in view: work.FPGA_SoC(verilog)) with 16 loads 2 times to improve timing.
+@N: FX271 :"d:\github\fpga\fpga_soc\hdl\lcd_rgb.v":87:1:87:6|Replicating instance LCD_RGB_0.x_cnt[0] (in view: work.FPGA_SoC(verilog)) with 14 loads 1 time to improve timing.
+Timing driven replication report
+Added 7 Registers via timing driven replication
+Added 7 LUTs via timing driven replication
+
+   4		0h:00m:05s		    -0.48ns		1201 /       419
+   5		0h:00m:05s		    -0.39ns		1202 /       419
+   6		0h:00m:05s		    -0.40ns		1204 /       419
+   7		0h:00m:05s		    -0.38ns		1205 /       419
+   8		0h:00m:05s		    -0.38ns		1206 /       419
+
+
+   9		0h:00m:05s		    -0.08ns		1206 /       419
+  10		0h:00m:05s		    -0.08ns		1208 /       419
+@N: BN362 :"d:\github\fpga\fpga_soc\hdl\reg_demo.v":41:0:41:5|Removing sequential instance reg_apb_demo_0.reg_demo_0.data_out[4] (in view: work.FPGA_SoC(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\github\fpga\fpga_soc\hdl\reg_demo.v":41:0:41:5|Removing sequential instance reg_apb_demo_0.reg_demo_0.data_out[5] (in view: work.FPGA_SoC(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\github\fpga\fpga_soc\hdl\reg_demo.v":41:0:41:5|Removing sequential instance reg_apb_demo_0.reg_demo_0.data_out[6] (in view: work.FPGA_SoC(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\github\fpga\fpga_soc\hdl\reg_demo.v":41:0:41:5|Removing sequential instance reg_apb_demo_0.reg_demo_0.data_out[7] (in view: work.FPGA_SoC(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\github\fpga\fpga_soc\hdl\reg_demo.v":41:0:41:5|Removing sequential instance reg_apb_demo_0.reg_demo_0.data_out[0] (in view: work.FPGA_SoC(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\github\fpga\fpga_soc\hdl\reg_demo.v":41:0:41:5|Removing sequential instance reg_apb_demo_0.reg_demo_0.data_out[1] (in view: work.FPGA_SoC(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\github\fpga\fpga_soc\hdl\reg_demo.v":41:0:41:5|Removing sequential instance reg_apb_demo_0.reg_demo_0.data_out[2] (in view: work.FPGA_SoC(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\github\fpga\fpga_soc\hdl\reg_demo.v":41:0:41:5|Removing sequential instance reg_apb_demo_0.reg_demo_0.data_out[3] (in view: work.FPGA_SoC(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
+@N: FP130 |Promoting Net SYSRESET_0_POWER_ON_RESET_N on CLKINT  I_456 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 189MB peak: 191MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 190MB peak: 191MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+130 gated/generated clock tree(s) driving 674 clock pin(s) of sequential element(s)
+0 instances converted, 674 sequential instances remain driven by gated/generated clocks
+
+============================================================================================================================ Gated/Generated Clocks =============================================================================================================================
+Clock Tree ID     Driving Element                               Drive Element Type     Fanout     Sample Instance                                  Explanation                                                                                                                   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       FCCC_0.CCC_INST                               CCC                    447        PWMctr_0.pwm                                     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0002       FCCC_0.CCC_INST                               CCC                    99         LCD_RGB_0.x_cnt_fast[0]                          Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0003       reg_apb_wrp_0.reg16x8_0.un1_data_out8_23      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_247_rs     No clocks found on inputs                                                                                                     
+@K:CKID0004       reg_apb_wrp_0.reg16x8_0.un1_data_out8_111     CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_215_rs     No clocks found on inputs                                                                                                     
+@K:CKID0005       reg_apb_wrp_0.reg16x8_0.un1_data_out8_119     CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_223_rs     No clocks found on inputs                                                                                                     
+@K:CKID0006       reg_apb_wrp_0.reg16x8_0.un1_data_out8_60      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_254_rs     No clocks found on inputs                                                                                                     
+@K:CKID0007       reg_apb_wrp_0.reg16x8_0.un1_data_out8_110     CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_214_rs     No clocks found on inputs                                                                                                     
+@K:CKID0008       reg_apb_wrp_0.reg16x8_0.un1_data_out8_118     CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_222_rs     No clocks found on inputs                                                                                                     
+@K:CKID0009       reg_apb_wrp_0.reg16x8_0.un1_data_out8_63      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_253_rs     No clocks found on inputs                                                                                                     
+@K:CKID0010       reg_apb_wrp_0.reg16x8_0.un1_data_out8_87      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_151_rs     No clocks found on inputs                                                                                                     
+@K:CKID0011       reg_apb_wrp_0.reg16x8_0.un1_data_out8_46      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_159_rs     No clocks found on inputs                                                                                                     
+@K:CKID0012       reg_apb_wrp_0.reg16x8_0.un1_data_out8_39      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_167_rs     No clocks found on inputs                                                                                                     
+@K:CKID0013       reg_apb_wrp_0.reg16x8_0.un1_data_out8_55      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_135_rs     No clocks found on inputs                                                                                                     
+@K:CKID0014       reg_apb_wrp_0.reg16x8_0.un1_data_out8_10      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_185_rs     No clocks found on inputs                                                                                                     
+@K:CKID0015       reg_apb_wrp_0.reg16x8_0.un1_data_out8_26      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_201_rs     No clocks found on inputs                                                                                                     
+@K:CKID0016       reg_apb_wrp_0.reg16x8_0.un1_data_out8_122     CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_177_rs     No clocks found on inputs                                                                                                     
+@K:CKID0017       reg_apb_wrp_0.reg16x8_0.un1_data_out8_1       CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_233_rs     No clocks found on inputs                                                                                                     
+@K:CKID0018       reg_apb_wrp_0.reg16x8_0.un1_data_out8_71      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_188_rs     No clocks found on inputs                                                                                                     
+@K:CKID0019       reg_apb_wrp_0.reg16x8_0.un1_data_out8_79      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_204_rs     No clocks found on inputs                                                                                                     
+@K:CKID0020       reg_apb_wrp_0.reg16x8_0.un1_data_out8_100     CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_180_rs     No clocks found on inputs                                                                                                     
+@K:CKID0021       reg_apb_wrp_0.reg16x8_0.un1_data_out8_95      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_236_rs     No clocks found on inputs                                                                                                     
+@K:CKID0022       reg_apb_wrp_0.reg16x8_0.un1_data_out8_117     CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_221_rs     No clocks found on inputs                                                                                                     
+@K:CKID0023       reg_apb_wrp_0.reg16x8_0.un1_data_out8_62      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_252_rs     No clocks found on inputs                                                                                                     
+@K:CKID0024       reg_apb_wrp_0.reg16x8_0.un1_data_out8_86      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_150_rs     No clocks found on inputs                                                                                                     
+@K:CKID0025       reg_apb_wrp_0.reg16x8_0.un1_data_out8_44      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_158_rs     No clocks found on inputs                                                                                                     
+@K:CKID0026       reg_apb_wrp_0.reg16x8_0.un1_data_out8_37      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_166_rs     No clocks found on inputs                                                                                                     
+@K:CKID0027       reg_apb_wrp_0.reg16x8_0.un1_data_out8_53      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_134_rs     No clocks found on inputs                                                                                                     
+@K:CKID0028       reg_apb_wrp_0.reg16x8_0.un1_data_out8_8       CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_143_rs     No clocks found on inputs                                                                                                     
+@K:CKID0029       reg_apb_wrp_0.reg16x8_0.un1_data_out8_24      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_199_rs     No clocks found on inputs                                                                                                     
+@K:CKID0030       reg_apb_wrp_0.reg16x8_0.un1_data_out8_120     CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_175_rs     No clocks found on inputs                                                                                                     
+@K:CKID0031       reg_apb_wrp_0.reg16x8_0.un1_data_out8_3       CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_231_rs     No clocks found on inputs                                                                                                     
+@K:CKID0032       reg_apb_wrp_0.reg16x8_0.un1_data_out8_70      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_186_rs     No clocks found on inputs                                                                                                     
+@K:CKID0033       reg_apb_wrp_0.reg16x8_0.un1_data_out8_78      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_202_rs     No clocks found on inputs                                                                                                     
+@K:CKID0034       reg_apb_wrp_0.reg16x8_0.un1_data_out8_103     CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_178_rs     No clocks found on inputs                                                                                                     
+@K:CKID0035       reg_apb_wrp_0.reg16x8_0.un1_data_out8_94      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_234_rs     No clocks found on inputs                                                                                                     
+@K:CKID0036       reg_apb_wrp_0.reg16x8_0.un1_data_out8_22      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_246_rs     No clocks found on inputs                                                                                                     
+@K:CKID0037       reg_apb_wrp_0.reg16x8_0.un1_data_out8_61      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_255_rs     No clocks found on inputs                                                                                                     
+@K:CKID0038       reg_apb_wrp_0.reg16x8_0.un1_data_out8_85      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_149_rs     No clocks found on inputs                                                                                                     
+@K:CKID0039       reg_apb_wrp_0.reg16x8_0.un1_data_out8_42      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_157_rs     No clocks found on inputs                                                                                                     
+@K:CKID0040       reg_apb_wrp_0.reg16x8_0.un1_data_out8_35      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_165_rs     No clocks found on inputs                                                                                                     
+@K:CKID0041       reg_apb_wrp_0.reg16x8_0.un1_data_out8_51      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_133_rs     No clocks found on inputs                                                                                                     
+@K:CKID0042       reg_apb_wrp_0.reg16x8_0.un1_data_out8_67      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_141_rs     No clocks found on inputs                                                                                                     
+@K:CKID0043       reg_apb_wrp_0.reg16x8_0.un1_data_out8_45      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_197_rs     No clocks found on inputs                                                                                                     
+@K:CKID0044       reg_apb_wrp_0.reg16x8_0.un1_data_out8_38      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_173_rs     No clocks found on inputs                                                                                                     
+@K:CKID0045       reg_apb_wrp_0.reg16x8_0.un1_data_out8_54      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_229_rs     No clocks found on inputs                                                                                                     
+@K:CKID0046       reg_apb_wrp_0.reg16x8_0.un1_data_out8_69      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_184_rs     No clocks found on inputs                                                                                                     
+@K:CKID0047       reg_apb_wrp_0.reg16x8_0.un1_data_out8_77      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_200_rs     No clocks found on inputs                                                                                                     
+@K:CKID0048       reg_apb_wrp_0.reg16x8_0.un1_data_out8_102     CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_176_rs     No clocks found on inputs                                                                                                     
+@K:CKID0049       reg_apb_wrp_0.reg16x8_0.un1_data_out8_93      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_232_rs     No clocks found on inputs                                                                                                     
+@K:CKID0050       reg_apb_wrp_0.reg16x8_0.un1_data_out8_21      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_245_rs     No clocks found on inputs                                                                                                     
+@K:CKID0051       reg_apb_wrp_0.reg16x8_0.un1_data_out8_109     CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_213_rs     No clocks found on inputs                                                                                                     
+@K:CKID0052       reg_apb_wrp_0.reg16x8_0.un1_data_out8_84      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_148_rs     No clocks found on inputs                                                                                                     
+@K:CKID0053       reg_apb_wrp_0.reg16x8_0.un1_data_out8_40      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_156_rs     No clocks found on inputs                                                                                                     
+@K:CKID0054       reg_apb_wrp_0.reg16x8_0.un1_data_out8_33      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_164_rs     No clocks found on inputs                                                                                                     
+@K:CKID0055       reg_apb_wrp_0.reg16x8_0.un1_data_out8_49      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_132_rs     No clocks found on inputs                                                                                                     
+@K:CKID0056       reg_apb_wrp_0.reg16x8_0.un1_data_out8_65      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_140_rs     No clocks found on inputs                                                                                                     
+@K:CKID0057       reg_apb_wrp_0.reg16x8_0.un1_data_out8_47      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_195_rs     No clocks found on inputs                                                                                                     
+@K:CKID0058       reg_apb_wrp_0.reg16x8_0.un1_data_out8_36      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_171_rs     No clocks found on inputs                                                                                                     
+@K:CKID0059       reg_apb_wrp_0.reg16x8_0.un1_data_out8_52      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_227_rs     No clocks found on inputs                                                                                                     
+@K:CKID0060       reg_apb_wrp_0.reg16x8_0.un1_data_out8_68      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_142_rs     No clocks found on inputs                                                                                                     
+@K:CKID0061       reg_apb_wrp_0.reg16x8_0.un1_data_out8_76      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_198_rs     No clocks found on inputs                                                                                                     
+@K:CKID0062       reg_apb_wrp_0.reg16x8_0.un1_data_out8_101     CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_174_rs     No clocks found on inputs                                                                                                     
+@K:CKID0063       reg_apb_wrp_0.reg16x8_0.un1_data_out8_92      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_230_rs     No clocks found on inputs                                                                                                     
+@K:CKID0064       reg_apb_wrp_0.reg16x8_0.un1_data_out8_20      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_244_rs     No clocks found on inputs                                                                                                     
+@K:CKID0065       reg_apb_wrp_0.reg16x8_0.un1_data_out8_108     CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_212_rs     No clocks found on inputs                                                                                                     
+@K:CKID0066       reg_apb_wrp_0.reg16x8_0.un1_data_out8_116     CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_220_rs     No clocks found on inputs                                                                                                     
+@K:CKID0067       reg_apb_wrp_0.reg16x8_0.un1_data_out8_15      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_155_rs     No clocks found on inputs                                                                                                     
+@K:CKID0068       reg_apb_wrp_0.reg16x8_0.un1_data_out8_31      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_163_rs     No clocks found on inputs                                                                                                     
+@K:CKID0069       reg_apb_wrp_0.reg16x8_0.un1_data_out8_127     CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_131_rs     No clocks found on inputs                                                                                                     
+@K:CKID0070       reg_apb_wrp_0.reg16x8_0.un1_data_out8_6       CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_139_rs     No clocks found on inputs                                                                                                     
+@K:CKID0071       reg_apb_wrp_0.reg16x8_0.un1_data_out8_41      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_193_rs     No clocks found on inputs                                                                                                     
+@K:CKID0072       reg_apb_wrp_0.reg16x8_0.un1_data_out8_34      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_169_rs     No clocks found on inputs                                                                                                     
+@K:CKID0073       reg_apb_wrp_0.reg16x8_0.un1_data_out8_50      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_225_rs     No clocks found on inputs                                                                                                     
+@K:CKID0074       reg_apb_wrp_0.reg16x8_0.un1_data_out8_66      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_241_rs     No clocks found on inputs                                                                                                     
+@K:CKID0075       reg_apb_wrp_0.reg16x8_0.un1_data_out8_75      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_196_rs     No clocks found on inputs                                                                                                     
+@K:CKID0076       reg_apb_wrp_0.reg16x8_0.un1_data_out8_96      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_172_rs     No clocks found on inputs                                                                                                     
+@K:CKID0077       reg_apb_wrp_0.reg16x8_0.un1_data_out8_91      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_228_rs     No clocks found on inputs                                                                                                     
+@K:CKID0078       reg_apb_wrp_0.reg16x8_0.un1_data_out8_19      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_243_rs     No clocks found on inputs                                                                                                     
+@K:CKID0079       reg_apb_wrp_0.reg16x8_0.un1_data_out8_107     CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_211_rs     No clocks found on inputs                                                                                                     
+@K:CKID0080       reg_apb_wrp_0.reg16x8_0.un1_data_out8_115     CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_219_rs     No clocks found on inputs                                                                                                     
+@K:CKID0081       reg_apb_wrp_0.reg16x8_0.un1_data_out8_56      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_250_rs     No clocks found on inputs                                                                                                     
+@K:CKID0082       reg_apb_wrp_0.reg16x8_0.un1_data_out8_29      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_162_rs     No clocks found on inputs                                                                                                     
+@K:CKID0083       reg_apb_wrp_0.reg16x8_0.un1_data_out8_125     CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_130_rs     No clocks found on inputs                                                                                                     
+@K:CKID0084       reg_apb_wrp_0.reg16x8_0.un1_data_out8_4       CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_138_rs     No clocks found on inputs                                                                                                     
+@K:CKID0085       reg_apb_wrp_0.reg16x8_0.un1_data_out8_43      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_191_rs     No clocks found on inputs                                                                                                     
+@K:CKID0086       reg_apb_wrp_0.reg16x8_0.un1_data_out8_32      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_207_rs     No clocks found on inputs                                                                                                     
+@K:CKID0087       reg_apb_wrp_0.reg16x8_0.un1_data_out8_48      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_183_rs     No clocks found on inputs                                                                                                     
+@K:CKID0088       reg_apb_wrp_0.reg16x8_0.un1_data_out8_64      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_239_rs     No clocks found on inputs                                                                                                     
+@K:CKID0089       reg_apb_wrp_0.reg16x8_0.un1_data_out8_74      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_194_rs     No clocks found on inputs                                                                                                     
+@K:CKID0090       reg_apb_wrp_0.reg16x8_0.un1_data_out8_99      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_170_rs     No clocks found on inputs                                                                                                     
+@K:CKID0091       reg_apb_wrp_0.reg16x8_0.un1_data_out8_90      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_226_rs     No clocks found on inputs                                                                                                     
+@K:CKID0092       reg_apb_wrp_0.reg16x8_0.un1_data_out8_18      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_242_rs     No clocks found on inputs                                                                                                     
+@K:CKID0093       reg_apb_wrp_0.reg16x8_0.un1_data_out8_106     CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_210_rs     No clocks found on inputs                                                                                                     
+@K:CKID0094       reg_apb_wrp_0.reg16x8_0.un1_data_out8_114     CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_218_rs     No clocks found on inputs                                                                                                     
+@K:CKID0095       reg_apb_wrp_0.reg16x8_0.un1_data_out8_59      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_249_rs     No clocks found on inputs                                                                                                     
+@K:CKID0096       reg_apb_wrp_0.reg16x8_0.un1_data_out8_83      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_146_rs     No clocks found on inputs                                                                                                     
+@K:CKID0097       reg_apb_wrp_0.reg16x8_0.un1_data_out8_123     CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_129_rs     No clocks found on inputs                                                                                                     
+@K:CKID0098       reg_apb_wrp_0.reg16x8_0.un1_data_out8_2       CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_137_rs     No clocks found on inputs                                                                                                     
+@K:CKID0099       reg_apb_wrp_0.reg16x8_0.un1_data_out8_14      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_189_rs     No clocks found on inputs                                                                                                     
+@K:CKID0100       reg_apb_wrp_0.reg16x8_0.un1_data_out8_30      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_205_rs     No clocks found on inputs                                                                                                     
+@K:CKID0101       reg_apb_wrp_0.reg16x8_0.un1_data_out8_126     CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_181_rs     No clocks found on inputs                                                                                                     
+@K:CKID0102       reg_apb_wrp_0.reg16x8_0.un1_data_out8_5       CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_237_rs     No clocks found on inputs                                                                                                     
+@K:CKID0103       reg_apb_wrp_0.reg16x8_0.un1_data_out8_73      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_192_rs     No clocks found on inputs                                                                                                     
+@K:CKID0104       reg_apb_wrp_0.reg16x8_0.un1_data_out8_98      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_168_rs     No clocks found on inputs                                                                                                     
+@K:CKID0105       reg_apb_wrp_0.reg16x8_0.un1_data_out8_89      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_224_rs     No clocks found on inputs                                                                                                     
+@K:CKID0106       reg_apb_wrp_0.reg16x8_0.un1_data_out8_17      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_240_rs     No clocks found on inputs                                                                                                     
+@K:CKID0107       reg_apb_wrp_0.reg16x8_0.un1_data_out8_105     CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_209_rs     No clocks found on inputs                                                                                                     
+@K:CKID0108       reg_apb_wrp_0.reg16x8_0.un1_data_out8_113     CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_217_rs     No clocks found on inputs                                                                                                     
+@K:CKID0109       reg_apb_wrp_0.reg16x8_0.un1_data_out8_58      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_248_rs     No clocks found on inputs                                                                                                     
+@K:CKID0110       reg_apb_wrp_0.reg16x8_0.un1_data_out8_82      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_145_rs     No clocks found on inputs                                                                                                     
+@K:CKID0111       reg_apb_wrp_0.reg16x8_0.un1_data_out8_13      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_154_rs     No clocks found on inputs                                                                                                     
+@K:CKID0112       reg_apb_wrp_0.reg16x8_0.un1_data_out8         CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_136_rs     No clocks found on inputs                                                                                                     
+@K:CKID0113       reg_apb_wrp_0.reg16x8_0.un1_data_out8_12      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_187_rs     No clocks found on inputs                                                                                                     
+@K:CKID0114       reg_apb_wrp_0.reg16x8_0.un1_data_out8_28      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_203_rs     No clocks found on inputs                                                                                                     
+@K:CKID0115       reg_apb_wrp_0.reg16x8_0.un1_data_out8_124     CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_179_rs     No clocks found on inputs                                                                                                     
+@K:CKID0116       reg_apb_wrp_0.reg16x8_0.un1_data_out8_7       CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_235_rs     No clocks found on inputs                                                                                                     
+@K:CKID0117       reg_apb_wrp_0.reg16x8_0.un1_data_out8_72      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_190_rs     No clocks found on inputs                                                                                                     
+@K:CKID0118       reg_apb_wrp_0.reg16x8_0.un1_data_out8_97      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_206_rs     No clocks found on inputs                                                                                                     
+@K:CKID0119       reg_apb_wrp_0.reg16x8_0.un1_data_out8_88      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_182_rs     No clocks found on inputs                                                                                                     
+@K:CKID0120       reg_apb_wrp_0.reg16x8_0.un1_data_out8_16      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_238_rs     No clocks found on inputs                                                                                                     
+@K:CKID0121       reg_apb_wrp_0.reg16x8_0.un1_data_out8_104     CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_208_rs     No clocks found on inputs                                                                                                     
+@K:CKID0122       reg_apb_wrp_0.reg16x8_0.un1_data_out8_112     CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_216_rs     No clocks found on inputs                                                                                                     
+@K:CKID0123       reg_apb_wrp_0.reg16x8_0.un1_data_out8_57      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_251_rs     No clocks found on inputs                                                                                                     
+@K:CKID0124       reg_apb_wrp_0.reg16x8_0.un1_data_out8_81      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_144_rs     No clocks found on inputs                                                                                                     
+@K:CKID0125       reg_apb_wrp_0.reg16x8_0.un1_data_out8_11      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_153_rs     No clocks found on inputs                                                                                                     
+@K:CKID0126       reg_apb_wrp_0.reg16x8_0.un1_data_out8_27      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_161_rs     No clocks found on inputs                                                                                                     
+@K:CKID0127       reg_apb_wrp_0.reg16x8_0.un1_data_out8_80      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_147_rs     No clocks found on inputs                                                                                                     
+@K:CKID0128       reg_apb_wrp_0.reg16x8_0.un1_data_out8_9       CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_152_rs     No clocks found on inputs                                                                                                     
+@K:CKID0129       reg_apb_wrp_0.reg16x8_0.un1_data_out8_25      CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_160_rs     No clocks found on inputs                                                                                                     
+@K:CKID0130       reg_apb_wrp_0.reg16x8_0.un1_data_out8_121     CFG3                   1          reg_apb_wrp_0.reg16x8_0.un1_data_out8_128_rs     No clocks found on inputs                                                                                                     
+=================================================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 158MB peak: 191MB)
+
+Writing Analyst data base D:\GitHub\FPGA\FPGA_SoC\synthesis\synwork\FPGA_SoC_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 187MB peak: 191MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: D:\GitHub\FPGA\FPGA_SoC\synthesis\FPGA_SoC.edn
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+L-2016.09M-SP1-5
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 188MB peak: 191MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 186MB peak: 191MB)
+
+@W: MT246 :"d:\github\fpga\fpga_soc\component\work\fpga_soc\fccc_0\fpga_soc_fccc_0_fccc.v":23:36:23:43|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock FPGA_SoC_FCCC_0_FCCC|GL1_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:FCCC_0.GL1_net"
+@W: MT420 |Found inferred clock FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:FCCC_0.GL0_net"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Jul 07 15:11:49 2023
+#
+
+
+Top view:               FPGA_SoC
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 1.046
+
+                                                Requested     Estimated      Requested     Estimated               Clock        Clock              
+Starting Clock                                  Frequency     Frequency      Period        Period        Slack     Type         Group              
+---------------------------------------------------------------------------------------------------------------------------------------------------
+FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock     100.0 MHz     111.7 MHz      10.000        8.954         1.046     inferred     Inferred_clkgroup_0
+FPGA_SoC_FCCC_0_FCCC|GL1_net_inferred_clock     100.0 MHz     146.9 MHz      10.000        6.808         3.192     inferred     Inferred_clkgroup_1
+System                                          100.0 MHz     1029.4 MHz     10.000        0.971         9.029     system       system_clkgroup    
+===================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                    |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                     Ending                                       |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                       System                                       |  10.000      9.029  |  No paths    -      |  No paths    -      |  No paths    -    
+System                                       FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock  |  10.000      6.705  |  No paths    -      |  No paths    -      |  No paths    -    
+FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock  FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock  |  10.000      1.046  |  No paths    -      |  No paths    -      |  No paths    -    
+FPGA_SoC_FCCC_0_FCCC|GL1_net_inferred_clock  FPGA_SoC_FCCC_0_FCCC|GL1_net_inferred_clock  |  10.000      3.192  |  No paths    -      |  No paths    -      |  No paths    -    
+================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                  Starting                                                                                                                     Arrival          
+Instance                          Reference                                       Type        Pin                Net                                           Time        Slack
+                                  Clock                                                                                                                                         
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FPGA_SoC_MSS_0.MSS_ADLIB_INST     FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[3]      CoreAPB3_0_APBmslave0_PADDR[3]                3.040       1.046
+FPGA_SoC_MSS_0.MSS_ADLIB_INST     FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[7]      CoreAPB3_0_APBmslave0_PADDR[7]                3.055       1.136
+FPGA_SoC_MSS_0.MSS_ADLIB_INST     FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[4]      CoreAPB3_0_APBmslave0_PADDR[4]                3.026       1.207
+FPGA_SoC_MSS_0.MSS_ADLIB_INST     FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[2]      CoreAPB3_0_APBmslave0_PADDR[2]                3.040       1.249
+FPGA_SoC_MSS_0.MSS_ADLIB_INST     FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[5]      CoreAPB3_0_APBmslave0_PADDR[5]                3.110       1.272
+FPGA_SoC_MSS_0.MSS_ADLIB_INST     FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[16]     FPGA_SoC_MSS_0_FIC_0_APB_MASTER_PADDR[16]     3.070       1.485
+FPGA_SoC_MSS_0.MSS_ADLIB_INST     FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_SEL          FPGA_SoC_MSS_0_FIC_0_APB_MASTER_PSELx         2.965       1.548
+FPGA_SoC_MSS_0.MSS_ADLIB_INST     FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[6]      CoreAPB3_0_APBmslave0_PADDR[6]                3.185       1.671
+FPGA_SoC_MSS_0.MSS_ADLIB_INST     FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[19]     FPGA_SoC_MSS_0_FIC_0_APB_MASTER_PADDR[19]     3.310       1.855
+FPGA_SoC_MSS_0.MSS_ADLIB_INST     FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[17]     FPGA_SoC_MSS_0_FIC_0_APB_MASTER_PADDR[17]     3.143       1.869
+================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                         Starting                                                                                                                     Required          
+Instance                                                 Reference                                       Type        Pin                Net                                           Time         Slack
+                                                         Clock                                                                                                                                          
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FPGA_SoC_MSS_0.MSS_ADLIB_INST                            FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_RDATA[4]     FPGA_SoC_MSS_0_FIC_0_APB_MASTER_PRDATA[4]     9.609        1.046
+FPGA_SoC_MSS_0.MSS_ADLIB_INST                            FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_RDATA[3]     FPGA_SoC_MSS_0_FIC_0_APB_MASTER_PRDATA[3]     9.553        1.137
+FPGA_SoC_MSS_0.MSS_ADLIB_INST                            FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_RDATA[6]     FPGA_SoC_MSS_0_FIC_0_APB_MASTER_PRDATA[6]     9.721        1.158
+FPGA_SoC_MSS_0.MSS_ADLIB_INST                            FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_RDATA[5]     FPGA_SoC_MSS_0_FIC_0_APB_MASTER_PRDATA[5]     9.742        1.179
+FPGA_SoC_MSS_0.MSS_ADLIB_INST                            FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_RDATA[0]     FPGA_SoC_MSS_0_FIC_0_APB_MASTER_PRDATA[0]     9.687        1.265
+FPGA_SoC_MSS_0.MSS_ADLIB_INST                            FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_RDATA[7]     FPGA_SoC_MSS_0_FIC_0_APB_MASTER_PRDATA[7]     9.833        1.270
+FPGA_SoC_MSS_0.MSS_ADLIB_INST                            FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_RDATA[1]     FPGA_SoC_MSS_0_FIC_0_APB_MASTER_PRDATA[1]     9.754        1.338
+FPGA_SoC_MSS_0.MSS_ADLIB_INST                            FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_RDATA[2]     FPGA_SoC_MSS_0_FIC_0_APB_MASTER_PRDATA[2]     9.776        1.360
+FPGA_SoC_MSS_0.MSS_ADLIB_INST                            FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_RDATA[9]     FPGA_SoC_MSS_0_FIC_0_APB_MASTER_PRDATA[9]     9.664        1.901
+corepwm_0.genblk3\.corepwm_reg_if.psh_enable_reg1[1]     FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock     SLE         EN                 psh_enable_reg1_1_sqmuxa                      9.707        1.939
+========================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.391
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.609
+
+    - Propagation time:                      8.563
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     1.046
+
+    Number of logic level(s):                5
+    Starting point:                          FPGA_SoC_MSS_0.MSS_ADLIB_INST / F_HM0_ADDR[3]
+    Ending point:                            FPGA_SoC_MSS_0.MSS_ADLIB_INST / F_HM0_RDATA[4]
+    The start point is clocked by            FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK_BASE
+    The end   point is clocked by            FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK_BASE
+
+Instance / Net                                                              Pin                Pin               Arrival     No. of    
+Name                                                            Type        Name               Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------
+FPGA_SoC_MSS_0.MSS_ADLIB_INST                                   MSS_010     F_HM0_ADDR[3]      Out     3.040     3.040       -         
+CoreAPB3_0_APBmslave0_PADDR[3]                                  Net         -                  -       1.004     -           80        
+corepwm_0.genblk3\.corepwm_reg_if.PRDATA_regif_sn_m23_1_0_1     CFG4        D                  In      -         4.044       -         
+corepwm_0.genblk3\.corepwm_reg_if.PRDATA_regif_sn_m23_1_0_1     CFG4        Y                  Out     0.284     4.328       -         
+PRDATA_regif_sn_m23_1_0_1                                       Net         -                  -       0.483     -           1         
+corepwm_0.genblk3\.corepwm_reg_if.PRDATA_regif_sn_m23_1_0       CFG4        D                  In      -         4.811       -         
+corepwm_0.genblk3\.corepwm_reg_if.PRDATA_regif_sn_m23_1_0       CFG4        Y                  Out     0.284     5.095       -         
+PRDATA_regif_sn_m23_1_0                                         Net         -                  -       0.483     -           1         
+corepwm_0.genblk3\.corepwm_reg_if.PRDATA_regif_sn_m23           CFG3        C                  In      -         5.578       -         
+corepwm_0.genblk3\.corepwm_reg_if.PRDATA_regif_sn_m23           CFG3        Y                  Out     0.194     5.772       -         
+PRDATA_regif_sn_N_24                                            Net         -                  -       0.802     -           16        
+corepwm_0.genblk3\.corepwm_reg_if.PRDATA_regif[4]               CFG4        D                  In      -         6.574       -         
+corepwm_0.genblk3\.corepwm_reg_if.PRDATA_regif[4]               CFG4        Y                  Out     0.284     6.858       -         
+CoreAPB3_0_APBmslave0_PRDATA[4]                                 Net         -                  -       0.483     -           1         
+CoreAPB3_0.u_mux_p_to_b3.PRDATA_0_iv[4]                         CFG4        D                  In      -         7.341       -         
+CoreAPB3_0.u_mux_p_to_b3.PRDATA_0_iv[4]                         CFG4        Y                  Out     0.250     7.591       -         
+FPGA_SoC_MSS_0_FIC_0_APB_MASTER_PRDATA[4]                       Net         -                  -       0.971     -           1         
+FPGA_SoC_MSS_0.MSS_ADLIB_INST                                   MSS_010     F_HM0_RDATA[4]     In      -         8.563       -         
+=======================================================================================================================================
+Total path delay (propagation time + setup) of 8.954 is 4.726(52.8%) logic and 4.227(47.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: FPGA_SoC_FCCC_0_FCCC|GL1_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                           Starting                                                                          Arrival          
+Instance                   Reference                                       Type     Pin     Net              Time        Slack
+                           Clock                                                                                              
+------------------------------------------------------------------------------------------------------------------------------
+LCD_RGB_0.y_cnt[2]         FPGA_SoC_FCCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       y_cnt[2]         0.094       3.192
+LCD_RGB_0.y_cnt[1]         FPGA_SoC_FCCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       y_cnt[1]         0.094       3.199
+LCD_RGB_0.x_cnt[7]         FPGA_SoC_FCCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       x_cnt[7]         0.094       3.252
+LCD_RGB_0.x_cnt_1_rep1     FPGA_SoC_FCCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       x_cnt_1_rep1     0.094       3.253
+LCD_RGB_0.x_cnt_3_rep1     FPGA_SoC_FCCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       x_cnt_3_rep1     0.094       3.282
+LCD_RGB_0.x_cnt[5]         FPGA_SoC_FCCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       x_cnt[5]         0.094       3.293
+LCD_RGB_0.y_cnt[0]         FPGA_SoC_FCCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       y_cnt[0]         0.094       3.306
+LCD_RGB_0.x_cnt_2_rep1     FPGA_SoC_FCCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       x_cnt_2_rep1     0.094       3.309
+LCD_RGB_0.y_cnt[3]         FPGA_SoC_FCCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       y_cnt[3]         0.094       3.323
+LCD_RGB_0.x_cnt[4]         FPGA_SoC_FCCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       x_cnt[4]         0.094       3.358
+==============================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                Starting                                                                                                Required          
+Instance                                        Reference                                       Type         Pin          Net                           Time         Slack
+                                                Clock                                                                                                                     
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+LCD_RGB_0.color_word_lsb_color_word_lsb_0_0     FPGA_SoC_FCCC_0_FCCC|GL1_net_inferred_clock     RAM64x18     C_DIN[0]     un1_cnt_word13_2_RNIK83SC     9.899        3.192
+LCD_RGB_0.color_word_lsb_color_word_lsb_0_1     FPGA_SoC_FCCC_0_FCCC|GL1_net_inferred_clock     RAM64x18     C_DIN[0]     un1_cnt_word13_2_RNIK83SC     9.899        3.192
+LCD_RGB_0.color_word_lsb_color_word_lsb_0_1     FPGA_SoC_FCCC_0_FCCC|GL1_net_inferred_clock     RAM64x18     C_DIN[1]     un1_lcd_cs_out_46_iv[5]       9.899        3.201
+LCD_RGB_0.color_word_lsb_color_word_lsb_0_1     FPGA_SoC_FCCC_0_FCCC|GL1_net_inferred_clock     RAM64x18     C_DIN[2]     un1_lcd_cs_out_46_iv[5]       9.899        3.201
+LCD_RGB_0.color_word_lsb_color_word_lsb_0_1     FPGA_SoC_FCCC_0_FCCC|GL1_net_inferred_clock     RAM64x18     C_DIN[3]     un1_lcd_cs_out_46_iv[5]       9.899        3.201
+LCD_RGB_0.color_word_msb_color_word_msb_0_0     FPGA_SoC_FCCC_0_FCCC|GL1_net_inferred_clock     RAM64x18     C_DIN[3]     un1_lcd_cs_out_u[3]           9.899        3.241
+LCD_RGB_0.color_word_msb_color_word_msb_0_1     FPGA_SoC_FCCC_0_FCCC|GL1_net_inferred_clock     RAM64x18     C_DIN[0]     un1_lcd_cs_out_u[3]           9.899        3.241
+LCD_RGB_0.color_word_msb_color_word_msb_0_1     FPGA_SoC_FCCC_0_FCCC|GL1_net_inferred_clock     RAM64x18     C_DIN[1]     un1_lcd_cs_out_u[3]           9.899        3.241
+LCD_RGB_0.color_word_msb_color_word_msb_0_1     FPGA_SoC_FCCC_0_FCCC|GL1_net_inferred_clock     RAM64x18     C_DIN[2]     un1_lcd_cs_out_u[3]           9.899        3.241
+LCD_RGB_0.color_word_msb_color_word_msb_0_1     FPGA_SoC_FCCC_0_FCCC|GL1_net_inferred_clock     RAM64x18     C_DIN[3]     un1_lcd_cs_out_u[3]           9.899        3.241
+==========================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.101
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.899
+
+    - Propagation time:                      6.707
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 3.192
+
+    Number of logic level(s):                7
+    Starting point:                          LCD_RGB_0.y_cnt[2] / Q
+    Ending point:                            LCD_RGB_0.color_word_lsb_color_word_lsb_0_0 / C_DIN[0]
+    The start point is clocked by            FPGA_SoC_FCCC_0_FCCC|GL1_net_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            FPGA_SoC_FCCC_0_FCCC|GL1_net_inferred_clock [rising] on pin C_CLK
+
+Instance / Net                                               Pin          Pin               Arrival     No. of    
+Name                                            Type         Name         Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------
+LCD_RGB_0.y_cnt[2]                              SLE          Q            Out     0.094     0.094       -         
+y_cnt[2]                                        Net          -            -       0.888     -           15        
+LCD_RGB_0.y_cnt_RNIG0EL[0]                      CFG3         B            In      -         0.983       -         
+LCD_RGB_0.y_cnt_RNIG0EL[0]                      CFG3         Y            Out     0.129     1.112       -         
+un1_lcd_cs_out_7lto6_i_o2_0_0_1                 Net          -            -       0.483     -           1         
+LCD_RGB_0.y_cnt_RNI9ASA1[5]                     CFG4         D            In      -         1.595       -         
+LCD_RGB_0.y_cnt_RNI9ASA1[5]                     CFG4         Y            Out     0.284     1.879       -         
+un1_lcd_cs_out_14lt7                            Net          -            -       0.590     -           3         
+LCD_RGB_0.un1_lcd_cs_out_36                     CFG4         D            In      -         2.469       -         
+LCD_RGB_0.un1_lcd_cs_out_36                     CFG4         Y            Out     0.250     2.719       -         
+un1_lcd_cs_out_36                               Net          -            -       0.548     -           2         
+LCD_RGB_0.un1_y_cnt_21_i_m2                     CFG4         D            In      -         3.267       -         
+LCD_RGB_0.un1_y_cnt_21_i_m2                     CFG4         Y            Out     0.284     3.551       -         
+N_147                                           Net          -            -       0.483     -           1         
+LCD_RGB_0.un1_cnt_word13_1_RNIQ79O2             CFG4         D            In      -         4.034       -         
+LCD_RGB_0.un1_cnt_word13_1_RNIQ79O2             CFG4         Y            Out     0.276     4.310       -         
+un1_m2_0_a2_2_1                                 Net          -            -       0.483     -           1         
+LCD_RGB_0.un1_x_cnt_17_RNI95P1C                 CFG4         C            In      -         4.793       -         
+LCD_RGB_0.un1_x_cnt_17_RNI95P1C                 CFG4         Y            Out     0.196     4.989       -         
+un1_N_5_mux_0_0_i                               Net          -            -       0.548     -           2         
+LCD_RGB_0.un1_cnt_word13_2_RNIK83SC             CFG3         C            In      -         5.537       -         
+LCD_RGB_0.un1_cnt_word13_2_RNIK83SC             CFG3         Y            Out     0.194     5.731       -         
+un1_cnt_word13_2_RNIK83SC                       Net          -            -       0.977     -           2         
+LCD_RGB_0.color_word_lsb_color_word_lsb_0_0     RAM64x18     C_DIN[0]     In      -         6.707       -         
+==================================================================================================================
+Total path delay (propagation time + setup) of 6.808 is 1.808(26.6%) logic and 5.000(73.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                 Starting                                                Arrival          
+Instance                                         Reference     Type     Pin     Net                      Time        Slack
+                                                 Clock                                                                    
+--------------------------------------------------------------------------------------------------------------------------
+reg_apb_wrp_0.reg16x8_0.un1_data_out8_168_rs     System        SLE      Q       un1_data_out8_168_rs     0.076       6.705
+reg_apb_wrp_0.reg16x8_0.un1_data_out8_170_rs     System        SLE      Q       un1_data_out8_170_rs     0.076       6.705
+reg_apb_wrp_0.reg16x8_0.un1_data_out8_172_rs     System        SLE      Q       un1_data_out8_172_rs     0.076       6.705
+reg_apb_wrp_0.reg16x8_0.un1_data_out8_174_rs     System        SLE      Q       un1_data_out8_174_rs     0.076       6.705
+reg_apb_wrp_0.reg16x8_0.un1_data_out8_176_rs     System        SLE      Q       un1_data_out8_176_rs     0.076       6.705
+reg_apb_wrp_0.reg16x8_0.un1_data_out8_178_rs     System        SLE      Q       un1_data_out8_178_rs     0.076       6.705
+reg_apb_wrp_0.reg16x8_0.un1_data_out8_180_rs     System        SLE      Q       un1_data_out8_180_rs     0.076       6.705
+reg_apb_wrp_0.reg16x8_0.un1_data_out8_206_rs     System        SLE      Q       un1_data_out8_206_rs     0.076       6.705
+reg_apb_wrp_0.reg16x8_0.un1_data_out8_142_rs     System        SLE      Q       un1_data_out8_142_rs     0.076       6.742
+reg_apb_wrp_0.reg16x8_0.un1_data_out8_184_rs     System        SLE      Q       un1_data_out8_184_rs     0.076       6.742
+==========================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                        Starting                                                                                      Required          
+Instance                                Reference     Type     Pin                Net                                                 Time         Slack
+                                        Clock                                                                                                           
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+reg_apb_wrp_0.reg16x8_0.data_out[0]     System        SLE      D                  N_10_i                                              9.778        6.705
+reg_apb_wrp_0.reg16x8_0.data_out[1]     System        SLE      D                  N_292_i                                             9.778        6.705
+reg_apb_wrp_0.reg16x8_0.data_out[2]     System        SLE      D                  N_27_i                                              9.778        6.705
+reg_apb_wrp_0.reg16x8_0.data_out[3]     System        SLE      D                  N_33_i                                              9.778        6.705
+reg_apb_wrp_0.reg16x8_0.data_out[4]     System        SLE      D                  N_294_i                                             9.778        6.705
+reg_apb_wrp_0.reg16x8_0.data_out[5]     System        SLE      D                  N_51_i                                              9.778        6.705
+reg_apb_wrp_0.reg16x8_0.data_out[6]     System        SLE      D                  N_297_i                                             9.778        6.705
+reg_apb_wrp_0.reg16x8_0.data_out[7]     System        SLE      D                  N_70_i                                              9.778        6.705
+FCCC_0.CCC_INST                         System        CCC      RCOSC_25_50MHZ     OSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC     10.000       9.029
+========================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.222
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.778
+
+    - Propagation time:                      3.073
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 6.705
+
+    Number of logic level(s):                4
+    Starting point:                          reg_apb_wrp_0.reg16x8_0.un1_data_out8_168_rs / Q
+    Ending point:                            reg_apb_wrp_0.reg16x8_0.data_out[1] / D
+    The start point is clocked by            System [rising] on pin CLK
+    The end   point is clocked by            FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+
+Instance / Net                                             Pin      Pin               Arrival     No. of    
+Name                                              Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------
+reg_apb_wrp_0.reg16x8_0.un1_data_out8_168_rs      SLE      Q        Out     0.076     0.076       -         
+un1_data_out8_168_rs                              Net      -        -       0.509     -           1         
+reg_apb_wrp_0.reg16x8_0.mem_10__RNI19QJ[1]        CFG3     B        In      -         0.585       -         
+reg_apb_wrp_0.reg16x8_0.mem_10__RNI19QJ[1]        CFG3     Y        Out     0.143     0.728       -         
+mem_10_[1]                                        Net      -        -       0.590     -           3         
+reg_apb_wrp_0.reg16x8_0.data_out_2_15_i_1[1]      CFG4     B        In      -         1.318       -         
+reg_apb_wrp_0.reg16x8_0.data_out_2_15_i_1[1]      CFG4     Y        Out     0.125     1.442       -         
+data_out_2_15_i_1[1]                              Net      -        -       0.483     -           1         
+reg_apb_wrp_0.reg16x8_0.data_out_2_15_i_12[1]     CFG4     D        In      -         1.926       -         
+reg_apb_wrp_0.reg16x8_0.data_out_2_15_i_12[1]     CFG4     Y        Out     0.250     2.176       -         
+data_out_2_15_i_12[1]                             Net      -        -       0.483     -           1         
+reg_apb_wrp_0.reg16x8_0.data_out_RNO[1]           CFG4     D        In      -         2.659       -         
+reg_apb_wrp_0.reg16x8_0.data_out_RNO[1]           CFG4     Y        Out     0.276     2.935       -         
+N_292_i                                           Net      -        -       0.138     -           1         
+reg_apb_wrp_0.reg16x8_0.data_out[1]               SLE      D        In      -         3.073       -         
+============================================================================================================
+Total path delay (propagation time + setup) of 3.295 is 1.092(33.1%) logic and 2.203(66.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 186MB peak: 191MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 186MB peak: 191MB)
+
+---------------------------------------
+Resource Usage Report for FPGA_SoC 
+
+Mapping to part: m2s010tvf400-1
+Cell usage:
+CCC             1 use
+CLKINT          3 uses
+MSS_010         1 use
+RCOSC_25_50MHZ  1 use
+SYSRESET        1 use
+CFG1           134 uses
+CFG2           151 uses
+CFG3           563 uses
+CFG4           380 uses
+
+Carry cells:
+ARI1            213 uses - used for arithmetic functions
+ARI1            19 uses - used for Wide-Mux implementation
+Total ARI1      232 uses
+
+
+Sequential Cells: 
+SLE            667 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+I/O ports: 22
+I/O primitives: 21
+BIBUF          2 uses
+INBUF          2 uses
+OUTBUF         15 uses
+TRIBUFF        2 uses
+
+
+Global Clock Buffers: 3
+
+RAM/ROM usage summary
+Total Block RAMs (RAM64x18) : 5 of 22 (22%)
+
+Total LUTs:    1460
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 180; LUTs = 180;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  667 + 180 + 0 + 0 = 847;
+Total number of LUTs after P&R:  1460 + 180 + 0 + 0 = 1640;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 32MB peak: 191MB)
+
+Process took 0h:00m:07s realtime, 0h:00m:07s cputime
+# Fri Jul 07 15:11:49 2023
+
+###########################################################]

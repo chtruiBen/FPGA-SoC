@@ -1,0 +1,48 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.9 SP6 (Version 11.9.6.7)
+
+Date      :  Fri Jul 07 15:11:22 2023
+Project   :  D:\GitHub\FPGA\FPGA_SoC
+Component :  FPGA_SoC
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/GitHub/FPGA/FPGA_SoC/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v
+    D:/GitHub/FPGA/FPGA_SoC/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_iaddr_reg.v
+    D:/GitHub/FPGA/FPGA_SoC/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_muxptob3.v
+    D:/GitHub/FPGA/FPGA_SoC/component/Actel/DirectCore/corepwm/4.5.100/rtl/vlog/core/corepwm.v
+    D:/GitHub/FPGA/FPGA_SoC/component/Actel/DirectCore/corepwm/4.5.100/rtl/vlog/core/pwm_gen.v
+    D:/GitHub/FPGA/FPGA_SoC/component/Actel/DirectCore/corepwm/4.5.100/rtl/vlog/core/reg_if.v
+    D:/GitHub/FPGA/FPGA_SoC/component/Actel/DirectCore/corepwm/4.5.100/rtl/vlog/core/tach_if.v
+    D:/GitHub/FPGA/FPGA_SoC/component/Actel/DirectCore/corepwm/4.5.100/rtl/vlog/core/timebase.v
+    D:/GitHub/FPGA/FPGA_SoC/component/work/FPGA_SoC/CoreGPIO_0/rtl/vlog/core/coregpio.v
+    D:/GitHub/FPGA/FPGA_SoC/component/work/FPGA_SoC/FCCC_0/FPGA_SoC_FCCC_0_FCCC.v
+    D:/GitHub/FPGA/FPGA_SoC/component/work/FPGA_SoC/FPGA_SoC.v
+    D:/GitHub/FPGA/FPGA_SoC/component/work/FPGA_SoC/OSC_0/FPGA_SoC_OSC_0_OSC.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    D:/GitHub/FPGA/FPGA_SoC/component/Actel/SgCore/OSC/2.0.101/osc_comps.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    D:/GitHub/FPGA/FPGA_SoC/component/Actel/SgCore/OSC/2.0.101/osc_comps_pre.v
+
+Stimulus files for all Simulation tools:
+    D:/GitHub/FPGA/FPGA_SoC/component/work/FPGA_SoC/CoreGPIO_0/bfmtovec_compile.do
+    D:/GitHub/FPGA/FPGA_SoC/component/work/FPGA_SoC/CoreGPIO_0/coregpio_usertb_apb_master.bfm
+    D:/GitHub/FPGA/FPGA_SoC/component/work/FPGA_SoC/CoreGPIO_0/coregpio_usertb_include.bfm
+    D:/GitHub/FPGA/FPGA_SoC/component/work/FPGA_SoC/CoreGPIO_0/wave_vlog.do
+    D:/GitHub/FPGA/FPGA_SoC/component/work/FPGA_SoC/subsystem.bfm
+
+    D:/GitHub/FPGA/FPGA_SoC/component/work/FPGA_SoC/CoreGPIO_0/coreparameters.v
+    D:/GitHub/FPGA/FPGA_SoC/component/work/FPGA_SoC/CoreGPIO_0/rtl/vlog/amba_bfm/bfm_ahbl.v
+    D:/GitHub/FPGA/FPGA_SoC/component/work/FPGA_SoC/CoreGPIO_0/rtl/vlog/amba_bfm/bfm_ahblapb.v
+    D:/GitHub/FPGA/FPGA_SoC/component/work/FPGA_SoC/CoreGPIO_0/rtl/vlog/amba_bfm/bfm_ahbslave.v
+    D:/GitHub/FPGA/FPGA_SoC/component/work/FPGA_SoC/CoreGPIO_0/rtl/vlog/amba_bfm/bfm_ahbslaveext.v
+    D:/GitHub/FPGA/FPGA_SoC/component/work/FPGA_SoC/CoreGPIO_0/rtl/vlog/amba_bfm/bfm_ahbtoapb.v
+    D:/GitHub/FPGA/FPGA_SoC/component/work/FPGA_SoC/CoreGPIO_0/rtl/vlog/amba_bfm/bfm_apb.v
+    D:/GitHub/FPGA/FPGA_SoC/component/work/FPGA_SoC/CoreGPIO_0/rtl/vlog/amba_bfm/bfm_apbslave.v
+    D:/GitHub/FPGA/FPGA_SoC/component/work/FPGA_SoC/CoreGPIO_0/rtl/vlog/amba_bfm/bfm_apbslaveext.v
+    D:/GitHub/FPGA/FPGA_SoC/component/work/FPGA_SoC/CoreGPIO_0/rtl/vlog/amba_bfm/bfm_apbtoapb.v
+    D:/GitHub/FPGA/FPGA_SoC/component/work/FPGA_SoC/CoreGPIO_0/rtl/vlog/amba_bfm/bfm_main.v
+    D:/GitHub/FPGA/FPGA_SoC/component/work/FPGA_SoC/CoreGPIO_0/rtl/vlog/test/user/testbench.v
+

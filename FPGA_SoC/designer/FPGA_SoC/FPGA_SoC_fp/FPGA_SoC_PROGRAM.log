@@ -1,0 +1,36 @@
+Software Version: 11.9.6.7
+Embedded FlashPro5 programmer detected.
+programmer 'E2007Z0TTM' : FlashPro5
+Opened 'D:\GitHub\FPGA\FPGA_SoC\designer\FPGA_SoC\FPGA_SoC_fp\FPGA_SoC.pro'
+The 'open_project' command succeeded.
+IPD file 'D:/GitHub/FPGA/FPGA_SoC/designer/FPGA_SoC/FPGA_SoC.ipd' has been loaded successfully.
+DESIGN : FPGA_SoC;  CHECKSUM : A011;  PDB_VERSION : 1.9
+The 'set_programming_file' command succeeded.
+Warning: Programming is already enabled for device 'M2S010T'.
+The 'enable_device' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer 'E2007Z0TTM' : Scan Chain...
+programmer 'E2007Z0TTM' : Check Chain...
+programmer 'E2007Z0TTM' : Scan and Check Chain PASSED.
+programmer 'E2007Z0TTM' : device 'M2S010T' : Executing action PROGRAM
+programmer 'E2007Z0TTM' : device 'M2S010T' : Family: SmartFusion2
+programmer 'E2007Z0TTM' : device 'M2S010T' : Product:      M2S010
+programmer 'E2007Z0TTM' : device 'M2S010T' : EXPORT ISC_ENABLE_RESULT[32] = 00796744
+programmer 'E2007Z0TTM' : device 'M2S010T' : EXPORT CRCERR[1] = 0
+programmer 'E2007Z0TTM' : device 'M2S010T' : EXPORT EDCERR[1] = 0
+programmer 'E2007Z0TTM' : device 'M2S010T' : Programming FPGA Array...
+programmer 'E2007Z0TTM' : device 'M2S010T' : ===================================================================================
+programmer 'E2007Z0TTM' : device 'M2S010T' : EXPORT DSN[128] = 4f246aabe467ea9e559fea3b4e9e47a0
+programmer 'E2007Z0TTM' : device 'M2S010T' : ===================================================================================
+programmer 'E2007Z0TTM' : device 'M2S010T' : Finished: Fri Jul 07 15:15:20 2023 (Elapsed time 00:00:23)
+programmer 'E2007Z0TTM' : device 'M2S010T' : Executing action PROGRAM PASSED.
+programmer 'E2007Z0TTM' : Chain programming PASSED.
+Chain Programming Finished: Fri Jul 07 15:15:20 2023 (Elapsed time 00:00:23)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

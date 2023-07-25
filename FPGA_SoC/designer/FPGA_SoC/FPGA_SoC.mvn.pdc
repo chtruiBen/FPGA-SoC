@@ -1,0 +1,62 @@
+# Microsemi Physical design constraints file
+
+# Version: v11.9 SP6 11.9.6.7
+
+# Design Name: FPGA_SoC 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010T , Package: 256 VF , Speed grade: STD 
+
+# Date generated: Fri Jul 07 15:12:50 2023 
+
+
+#
+# IO banks setting
+#
+
+set_iobank Bank1 -vcci 3.30 -fixed no
+set_iobank Bank2 -vcci 3.30 -fixed no
+set_iobank Bank7 -vcci 3.30 -fixed no
+
+#
+# Local clock constraints
+#
+
+
+#
+# Region constraints
+#
+
+
+#
+# I/O constraints
+#
+
+set_io DEVRST_N -DIRECTION INPUT -pinname M11
+set_io GPIO_0_M2F -DIRECTION OUTPUT -pinname M15 -fixed yes
+set_io GPIO_OUT\[0\] -DIRECTION OUTPUT -pinname M16 -fixed yes
+set_io I2C_1_SCL -DIRECTION INOUT -pinname H16 -fixed yes
+set_io I2C_1_SDA -DIRECTION INOUT -pinname J16 -fixed yes
+set_io LED2 -DIRECTION OUTPUT -pinname N14 -fixed yes
+set_io MMUART_0_RXD -DIRECTION INPUT -pinname G13 -fixed yes
+set_io MMUART_0_TXD -DIRECTION OUTPUT -pinname G12 -fixed yes
+set_io MMUART_1_RXD -DIRECTION INPUT -pinname H13 -fixed yes
+set_io MMUART_1_TXD -DIRECTION OUTPUT -pinname H12 -fixed yes
+set_io PWM\[0\] -DIRECTION OUTPUT -pinname G1 -fixed yes
+set_io PWM\[1\] -DIRECTION OUTPUT -pinname G2 -fixed yes
+set_io PWM\[2\] -DIRECTION OUTPUT -pinname H3 -fixed yes
+set_io PWM\[3\] -DIRECTION OUTPUT -pinname G5 -fixed yes
+set_io lcd_clk_out -DIRECTION OUTPUT -pinname J14 -fixed yes
+set_io lcd_cs_out -DIRECTION OUTPUT -pinname J12 -fixed yes
+set_io lcd_data_out -DIRECTION OUTPUT -pinname K12 -fixed yes
+set_io lcd_dc_out -DIRECTION OUTPUT -pinname H14 -fixed yes
+set_io pwm_0 -DIRECTION OUTPUT -pinname F2 -fixed yes
+set_io pwm_1 -DIRECTION OUTPUT -pinname F3 -fixed yes
+set_io pwm_2 -DIRECTION OUTPUT -pinname F4 -fixed yes
+set_io pwm_3 -DIRECTION OUTPUT -pinname F5 -fixed yes
+
+#
+# Core cell constraints
+#
+

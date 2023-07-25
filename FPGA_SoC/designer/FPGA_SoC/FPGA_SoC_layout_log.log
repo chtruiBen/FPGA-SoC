@@ -1,0 +1,59 @@
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+High-effort              : OFF
+Repair min-delay         : ON
+Incremental              : OFF
+Inter-clock optimization : OFF
+TDPR scenario            : Primary
+
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 21 fixed I/O macros, 0 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V4.0 - 11.9.6 
+Design: FPGA_SoC                        Started: Fri Jul 07 15:13:09 2023
+
+Initializing Timing-Driven Placement ...
+Placing design...
+End of placement.
+Pre-Placement Runtime        : 2 seconds
+Placement Runtime            : 13 seconds
+
+Placer completed successfully.
+
+Design: FPGA_SoC                        
+Finished: Fri Jul 07 15:13:40 2023
+Total CPU Time:     00:00:29            Total Elapsed Time: 00:00:31
+Total Memory Usage: 331.7 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: D:\GitHub\FPGA\FPGA_SoC\designer\FPGA_SoC\FPGA_SoCStarted: Fri Jul 07 15:13:43 2023
+
+
+Router completed successfully.
+
+Design: D:\GitHub\FPGA\FPGA_SoC\designer\FPGA_SoC\FPGA_SoC
+Finished: Fri Jul 07 15:13:52 2023
+Total CPU Time:     00:00:09            Total Elapsed Time: 00:00:09
+Total Memory Usage: 497.6 Mbytes
+                        o - o - o - o - o - o
+
+Info: Iteration 1:
+  Total violating paths eligible for improvement: 0
+  Worst minimum delay slack: 
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 1521 | 12084 | 12.59      |
+| DFF           | 847  | 12084 | 7.01       |
+| I/O Register  | 0    | 408   | 0.00       |
+| Logic Element | 1725 | 12084 | 14.28      |
++---------------+------+-------+------------+
+

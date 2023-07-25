@@ -1,0 +1,19 @@
+
+. Module name, SLE, CFG, ARI1, BUFFER, MACC, RAM1K18, RAM64X18, GLOBAL, IO
+. FPGA_SoC, 667, 1228, 232, 0, 0, 0, 5, 3, 21
+.	. CoreAPB3_Z1, 0, 35, 0, 0, 0, 0, 0, 0, 0
+.	.	. COREAPB3_MUXPTOB3, 0, 28, 0, 0, 0, 0, 0, 0, 0
+.	. FPGA_SoC_CoreGPIO_0_CoreGPIO_Z2, 11, 28, 0, 0, 0, 0, 0, 0, 0
+.	. FPGA_SoC_FCCC_0_FCCC, 0, 0, 0, 0, 0, 0, 0, 2, 0
+.	. FPGA_SoC_MSS, 0, 1, 0, 0, 0, 0, 0, 0, 6
+.	. FPGA_SoC_OSC_0_OSC, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	. LCD_RGB, 95, 354, 76, 0, 0, 0, 4, 0, 0
+.	. PWMctr, 47, 22, 75, 0, 0, 0, 0, 0, 0
+.	. corepwm_Z3, 121, 150, 81, 0, 0, 0, 0, 0, 0
+.	.	. corepwm_pwm_gen_4s_16s_0_0s, 4, 65, 32, 0, 0, 0, 0, 0, 0
+.	.	. corepwm_reg_if_Z4, 101, 85, 16, 0, 0, 0, 0, 0, 0
+.	.	. corepwm_timebase_16s_0s, 16, 0, 33, 0, 0, 0, 0, 0, 0
+.	. reg_apb_demo, 1, 4, 0, 0, 0, 0, 1, 0, 0
+.	.	. reg_demo, 1, 2, 0, 0, 0, 0, 1, 0, 0
+.	. reg_apb_wrp, 392, 634, 0, 0, 0, 0, 0, 0, 0
+.	.	. reg16x8, 392, 632, 0, 0, 0, 0, 0, 0, 0

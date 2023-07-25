@@ -1,0 +1,94 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v":30:7:30:23|Synthesizing module COREAPB3_MUXPTOB3 in library COREAPB3_LIB.
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Synthesizing module CoreAPB3 in library COREAPB3_LIB.
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":23:7:23:34|Synthesizing module FPGA_SoC_CoreGPIO_0_CoreGPIO in library work.
+@N: CG179 :"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":436:15:436:26|Removing redundant assignment.
+@N: CG179 :"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":456:15:456:26|Removing redundant assignment.
+@N: CG179 :"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":476:16:476:28|Removing redundant assignment.
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v":26:7:26:13|Synthesizing module corepwm in library work.
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\reg_if.v":26:7:26:20|Synthesizing module corepwm_reg_if in library work.
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\timebase.v":26:7:26:22|Synthesizing module corepwm_timebase in library work.
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\pwm_gen.v":26:7:26:21|Synthesizing module corepwm_pwm_gen in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.v":362:7:362:12|Synthesizing module CLKINT in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.v":372:7:372:9|Synthesizing module GND in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.v":727:7:727:9|Synthesizing module CCC in library work.
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC\FCCC_0\FPGA_SoC_FCCC_0_FCCC.v":5:7:5:26|Synthesizing module FPGA_SoC_FCCC_0_FCCC in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.v":286:7:286:11|Synthesizing module BIBUF in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.v":268:7:268:11|Synthesizing module INBUF in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.v":280:7:280:13|Synthesizing module TRIBUFF in library work.
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC_MSS\FPGA_SoC_MSS_syn.v":5:7:5:13|Synthesizing module MSS_010 in library work.
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC_MSS\FPGA_SoC_MSS.v":9:7:9:18|Synthesizing module FPGA_SoC_MSS in library work.
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":21:7:21:13|Synthesizing module LCD_RGB in library work.
+@N: CL134 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Found RAM color_word_lsb, depth=240, width=8
+@N: CL134 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Found RAM color_word_msb, depth=240, width=8
+@N: CL189 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Register bit color_y[0] is always 0.
+@N: CL189 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Register bit color_y[1] is always 0.
+@N: CL189 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Register bit color_y[2] is always 0.
+@N: CL189 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Register bit color_y[3] is always 0.
+@N: CL189 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Register bit color_y[4] is always 0.
+@N: CL189 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Register bit color_y[11] is always 1.
+@N: CL189 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Register bit color_y[12] is always 1.
+@N: CL189 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Register bit color_y[13] is always 1.
+@N: CL189 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Register bit color_y[14] is always 1.
+@N: CL189 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Register bit color_y[15] is always 1.
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":11:7:11:20|Synthesizing module RCOSC_25_50MHZ in library work.
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC\OSC_0\FPGA_SoC_OSC_0_OSC.v":5:7:5:24|Synthesizing module FPGA_SoC_OSC_0_OSC in library work.
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v":21:7:21:12|Synthesizing module PWMctr in library work.
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\hdl\reg_demo.v":21:7:21:14|Synthesizing module reg_demo in library work.
+@N: CL134 :"D:\GitHub\FPGA\FPGA_SoC\hdl\reg_demo.v":53:0:53:5|Found RAM mem, depth=16, width=8
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\hdl\reg_apb_demo.v":22:7:22:18|Synthesizing module reg_apb_demo in library work.
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\hdl\reg16x8.v":21:7:21:13|Synthesizing module reg16x8 in library work.
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\hdl\reg_apb_wrp.v":21:7:21:17|Synthesizing module reg_apb_wrp in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\generic\smartfusion2.v":718:7:718:14|Synthesizing module SYSRESET in library work.
+@N: CG364 :"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC\FPGA_SoC.v":9:7:9:14|Synthesizing module FPGA_SoC in library work.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC\OSC_0\FPGA_SoC_OSC_0_OSC.v":14:7:14:9|Input XTL is unused.
+@N: CL201 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Trying to extract state machine for register state.
+@N: CL201 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Trying to extract state machine for register cnt_scan.
+@N: CL201 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Trying to extract state machine for register cnt_main.
+@N: CL201 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":87:1:87:6|Trying to extract state machine for register cnt_init.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v":32:16:32:27|Input ram_lcd_data is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v":181:21:181:26|Input TACHIN is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v":184:6:184:12|Input PWM_CLK is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":72:36:72:40|Input IADDR is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":73:13:73:19|Input PRESETN is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":74:13:74:16|Input PCLK is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":107:18:107:25|Input PRDATAS3 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":108:18:108:25|Input PRDATAS4 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":110:18:110:25|Input PRDATAS6 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":111:18:111:25|Input PRDATAS7 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":112:18:112:25|Input PRDATAS8 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":113:18:113:25|Input PRDATAS9 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":114:18:114:26|Input PRDATAS10 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":115:18:115:26|Input PRDATAS11 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":116:18:116:26|Input PRDATAS12 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":117:18:117:26|Input PRDATAS13 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":118:18:118:26|Input PRDATAS14 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":119:18:119:26|Input PRDATAS15 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":124:13:124:20|Input PREADYS3 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":125:13:125:20|Input PREADYS4 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":127:13:127:20|Input PREADYS6 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":128:13:128:20|Input PREADYS7 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":129:13:129:20|Input PREADYS8 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":130:13:130:20|Input PREADYS9 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":131:13:131:21|Input PREADYS10 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":132:13:132:21|Input PREADYS11 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":133:13:133:21|Input PREADYS12 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":134:13:134:21|Input PREADYS13 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":135:13:135:21|Input PREADYS14 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":136:13:136:21|Input PREADYS15 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":141:13:141:21|Input PSLVERRS3 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":142:13:142:21|Input PSLVERRS4 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":144:13:144:21|Input PSLVERRS6 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":145:13:145:21|Input PSLVERRS7 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":146:13:146:21|Input PSLVERRS8 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":147:13:147:21|Input PSLVERRS9 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":148:13:148:22|Input PSLVERRS10 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":149:13:149:22|Input PSLVERRS11 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":150:13:150:22|Input PSLVERRS12 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":151:13:151:22|Input PSLVERRS13 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":152:13:152:22|Input PSLVERRS14 is unused.
+@N: CL159 :"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":153:13:153:22|Input PSLVERRS15 is unused.
+@N|Running in 64-bit mode
+

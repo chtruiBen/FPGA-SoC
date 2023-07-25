@@ -1,0 +1,29 @@
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       3 
+      Globals that cannot be demoted:      2 
+      Globals considered for demotion:     1 
+
+
+Info: List of globals that cannot be demoted: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    447    0      0      'FCCC_0/GL0_INST' 
+    99     0      0      'FCCC_0/GL1_INST' 
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    0      268    268    'SYSRESET_0_RNIHNV1' 
+
+Info: Demotion information: 
+      Disconnected 268 data pins from global 'SYSRESET_0_RNIHNV1'. 
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 0 global instances.
+
+===============================================================================.
+
+INFO: Reading User PDC file D:/GitHub/FPGA/FPGA_SoC/constraint/io/FPGA_SoC.io.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file D:/GitHub/FPGA/FPGA_SoC/constraint/fp/FPGA_SoC.fp.pdc. 0 error(s) and 0 warning(s)

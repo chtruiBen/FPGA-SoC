@@ -1,0 +1,122 @@
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\GitHub\\FPGA\\FPGA_SoC\\synthesis\\synwork\\FPGA_SoC_comp.srs|-top|FPGA_SoC|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-I|D:\\GitHub\\FPGA\\FPGA_SoC\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\bin64\\c_ver.exe":1509315136
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\generic\\smartfusion2.v":1508985798
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\hypermods.v":1508986328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\umr_capim.v":1508986328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1508986328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1508986328
+#CUR:"D:\\GitHub\\FPGA\\FPGA_SoC\\component\\work\\FPGA_SoC\\CoreGPIO_0\\rtl\\vlog\\core\\coregpio.v":1688713877
+#CUR:"D:\\GitHub\\FPGA\\FPGA_SoC\\component\\work\\FPGA_SoC\\FCCC_0\\FPGA_SoC_FCCC_0_FCCC.v":1688713878
+#CUR:"D:\\GitHub\\FPGA\\FPGA_SoC\\component\\work\\FPGA_SoC_MSS\\FPGA_SoC_MSS_syn.v":1688613379
+#CUR:"D:\\GitHub\\FPGA\\FPGA_SoC\\component\\work\\FPGA_SoC_MSS\\FPGA_SoC_MSS.v":1688613379
+#CUR:"D:\\GitHub\\FPGA\\FPGA_SoC\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.v":1686627357
+#CUR:"D:\\GitHub\\FPGA\\FPGA_SoC\\component\\work\\FPGA_SoC\\OSC_0\\FPGA_SoC_OSC_0_OSC.v":1688713880
+#CUR:"D:\\GitHub\\FPGA\\FPGA_SoC\\hdl\\LCD_RGB.v":1688636853
+#CUR:"D:\\GitHub\\FPGA\\FPGA_SoC\\hdl\\PWM.v":1688609919
+#CUR:"D:\\GitHub\\FPGA\\FPGA_SoC\\component\\Actel\\DirectCore\\corepwm\\4.5.100\\rtl\\vlog\\core\\pwm_gen.v":1688452404
+#CUR:"D:\\GitHub\\FPGA\\FPGA_SoC\\component\\Actel\\DirectCore\\corepwm\\4.5.100\\rtl\\vlog\\core\\reg_if.v":1688452404
+#CUR:"D:\\GitHub\\FPGA\\FPGA_SoC\\component\\Actel\\DirectCore\\corepwm\\4.5.100\\rtl\\vlog\\core\\tach_if.v":1688452404
+#CUR:"D:\\GitHub\\FPGA\\FPGA_SoC\\component\\Actel\\DirectCore\\corepwm\\4.5.100\\rtl\\vlog\\core\\timebase.v":1688452404
+#CUR:"D:\\GitHub\\FPGA\\FPGA_SoC\\component\\Actel\\DirectCore\\corepwm\\4.5.100\\rtl\\vlog\\core\\corepwm.v":1688452404
+#CUR:"D:\\GitHub\\FPGA\\FPGA_SoC\\hdl\\reg_demo.v":1688713732
+#CUR:"D:\\GitHub\\FPGA\\FPGA_SoC\\hdl\\reg_apb_demo.v":1688713671
+#CUR:"D:\\GitHub\\FPGA\\FPGA_SoC\\hdl\\reg16x8.v":1688623254
+#CUR:"D:\\GitHub\\FPGA\\FPGA_SoC\\hdl\\reg_apb_wrp.v":1688708781
+#CUR:"D:\\GitHub\\FPGA\\FPGA_SoC\\component\\Actel\\DirectCore\\CoreAPB3\\4.2.100\\rtl\\vlog\\core\\coreapb3_muxptob3.v":1688452404
+#CUR:"D:\\GitHub\\FPGA\\FPGA_SoC\\component\\Actel\\DirectCore\\CoreAPB3\\4.2.100\\rtl\\vlog\\core\\coreapb3_iaddr_reg.v":1688452404
+#CUR:"D:\\GitHub\\FPGA\\FPGA_SoC\\component\\Actel\\DirectCore\\CoreAPB3\\4.2.100\\rtl\\vlog\\core\\coreapb3.v":1688452404
+#CUR:"D:\\GitHub\\FPGA\\FPGA_SoC\\component\\work\\FPGA_SoC\\FPGA_SoC.v":1688713880
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v" verilog
+1			"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC\FCCC_0\FPGA_SoC_FCCC_0_FCCC.v" verilog
+2			"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC_MSS\FPGA_SoC_MSS_syn.v" verilog
+3			"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC_MSS\FPGA_SoC_MSS.v" verilog
+4			"D:\GitHub\FPGA\FPGA_SoC\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" verilog
+5			"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC\OSC_0\FPGA_SoC_OSC_0_OSC.v" verilog
+6			"D:\GitHub\FPGA\FPGA_SoC\hdl\LCD_RGB.v" verilog
+7			"D:\GitHub\FPGA\FPGA_SoC\hdl\PWM.v" verilog
+8			"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\pwm_gen.v" verilog
+9			"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\reg_if.v" verilog
+10			"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\tach_if.v" verilog
+11			"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\timebase.v" verilog
+12			"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v" verilog
+13			"D:\GitHub\FPGA\FPGA_SoC\hdl\reg_demo.v" verilog
+14			"D:\GitHub\FPGA\FPGA_SoC\hdl\reg_apb_demo.v" verilog
+15			"D:\GitHub\FPGA\FPGA_SoC\hdl\reg16x8.v" verilog
+16			"D:\GitHub\FPGA\FPGA_SoC\hdl\reg_apb_wrp.v" verilog
+17			"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v" verilog
+18			"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_iaddr_reg.v" verilog
+19			"D:\GitHub\FPGA\FPGA_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v" verilog
+20			"D:\GitHub\FPGA\FPGA_SoC\component\work\FPGA_SoC\FPGA_SoC.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 2
+4 -1
+5 4
+6 -1
+7 -1
+8 -1
+9 -1
+10 -1
+11 -1
+12 9 11 8 10
+13 -1
+14 13
+15 -1
+16 15
+17 -1
+18 -1
+19 17 18
+20 19 0 12 1 3 6 5 7 14 16
+#Dependency Lists(Users Of)
+0 20
+1 20
+2 3
+3 20
+4 5
+5 20
+6 20
+7 20
+8 12
+9 12
+10 12
+11 12
+12 20
+13 14
+14 20
+15 16
+16 20
+17 19
+18 19
+19 20
+20 -1
+#Design Unit to File Association
+module work FPGA_SoC_CoreGPIO_0_CoreGPIO 0
+module work FPGA_SoC_FCCC_0_FCCC 1
+module work MSS_010 2
+module work FPGA_SoC_MSS 3
+module work RCOSC_1MHZ 4
+module work RCOSC_25_50MHZ 4
+module work XTLOSC 4
+module work RCOSC_1MHZ_FAB 4
+module work RCOSC_25_50MHZ_FAB 4
+module work XTLOSC_FAB 4
+module work FPGA_SoC_OSC_0_OSC 5
+module work LCD_RGB 6
+module work PWMctr 7
+module work corepwm_pwm_gen 8
+module work corepwm_reg_if 9
+module work corepwm_tach_if 10
+module work corepwm_timebase 11
+module work corepwm 12
+module work reg_demo 13
+module work reg_apb_demo 14
+module work reg16x8 15
+module work reg_apb_wrp 16
+module work FPGA_SoC 20
+module COREAPB3_LIB COREAPB3_MUXPTOB3 17
+module COREAPB3_LIB coreapb3_iaddr_reg 18
+module COREAPB3_LIB CoreAPB3 19

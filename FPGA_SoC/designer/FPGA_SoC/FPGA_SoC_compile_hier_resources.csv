@@ -1,0 +1,18 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Interface 4LUT,Interface DFF,Single-Ended I/O,uSRAM 1K,PLLs and CCCs,Chip Globals,MSS,10/100/1000 Ethernet,RCOSC_50MHZ
+CoreAPB3_0/Primitives,7,0,0,0,0,0,0,0,0,0,0
+CoreAPB3_0/u_mux_p_to_b3/Primitives,28,0,0,0,0,0,0,0,0,0,0
+CoreGPIO_0/Primitives,28,11,0,0,0,0,0,0,0,0,0
+FCCC_0/Primitives,0,0,0,0,0,0,1,2,0,0,0
+FPGA_SoC_MSS_0/Primitives,1,0,0,0,6,0,0,0,1,0,0
+LCD_RGB_0/Primitives,431,95,144,144,0,4,0,0,0,0,0
+OSC_0/Primitives,0,0,0,0,0,0,0,0,0,0,1
+PWMctr_0/Primitives,99,47,0,0,0,0,0,0,0,0,0
+Primitives/Primitives,1,0,0,0,15,0,0,1,0,0,0
+corepwm_0/genblk3.corepwm_reg_if/Primitives,101,101,0,0,0,0,0,0,0,0,0
+corepwm_0/genblk5.genblk1.corepwm_timebase/Primitives,34,16,0,0,0,0,0,0,0,0,0
+corepwm_0/genblk6.corepwm_pwm_gen/Primitives,101,4,0,0,0,0,0,0,0,0,0
+reg_apb_demo_0/Primitives,2,0,0,0,0,0,0,0,0,0,0
+reg_apb_demo_0/reg_demo_0/Primitives,2,1,36,36,0,1,0,0,0,0,0
+reg_apb_wrp_0/Primitives,2,0,0,0,0,0,0,0,0,0,0
+reg_apb_wrp_0/reg16x8_0/Primitives,504,392,0,0,0,0,0,0,0,0,0

@@ -1,0 +1,209 @@
+Compile Report
+Microsemi Corporation - Microsemi Libero Software Release v11.9 SP6 (Version 11.9.6.7)
+Date: Fri Jul 07 15:11:56 2023
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S010T        |
+| Package                        | 256 VF         |
+| Speed Grade                    | -1             |
+| Temp                           | 0:25:85        |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 2.5V           |
+| Default I/O technology         | LVCMOS 3.3V    |
+| Restrict Probe Pins            | Yes            |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+-------------------------------------------------------+
+| Topcell | FPGA_SoC                                              |
+| Format  | EDIF                                                  |
+| Source  | D:\GitHub\FPGA\FPGA_SoC\synthesis\FPGA_SoC.edn        |
+| Source  | D:\GitHub\FPGA\FPGA_SoC\constraint\io\FPGA_SoC.io.pdc |
+| Source  | D:\GitHub\FPGA\FPGA_SoC\constraint\fp\FPGA_SoC.fp.pdc |
++---------+-------------------------------------------------------+
+
+Options
++---------------------------------------------------------+-------+
+| Merge User SDC file(s) with Existing Timing Constraints | true  |
+| Abort Compile if errors are found in PDC file(s)        | true  |
+| Enable Single Event Transient mitigation                | false |
+| Enable Design Separation Methodology                    | false |
+| Limit the number of high fanout nets to display to      | 10    |
++---------------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 1521 | 12084 | 12.59      |
+| DFF                       | 847  | 12084 | 7.01       |
+| I/O Register              | 0    | 408   | 0.00       |
+| User I/O                  | 21   | 136   | 15.44      |
+| -- Single-ended I/O       | 21   | 136   | 15.44      |
+| -- Differential I/O Pairs | 0    | 64    | 0.00       |
+| RAM64x18                  | 5    | 22    | 22.73      |
+| RAM1K18                   | 0    | 21    | 0.00       |
+| MACC                      | 0    | 22    | 0.00       |
+| Chip Globals              | 3    | 8     | 37.50      |
+| CCC                       | 1    | 2     | 50.00      |
+| RCOSC_25_50MHZ            | 1    | 1     | 100.00     |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 0    | 1     | 0.00       |
+| SERDESIF Blocks           | 0    | 1     | 0.00       |
+| -- SERDESIF Lanes         | 0    | 2     | 0.00       |
+| MSS                       | 1    | 1     | 100.00     |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+-----+
+| Type                     | 4LUT | DFF |
++--------------------------+------+-----+
+| Fabric Logic             | 1341 | 667 |
+| RAM64x18 Interface Logic | 180  | 180 |
+| RAM1K18 Interface Logic  | 0    | 0   |
+| MACC Interface Logic     | 0    | 0   |
+| Total Used               | 1521 | 847 |
++--------------------------+------+-----+
+
+MSS Resource Usage
++---------------+------+-------+
+| Type          | Used | Total |
++---------------+------+-------+
+| Cortex-M3*    | 1    | 1     |
+| eNVM (256KB)* | 1    | 1     |
+| eSRAM*        | 2    | 2     |
+| TIMER*        | 2    | 2     |
+| CAN           | 0    | 1     |
+| SPI           | 0    | 2     |
+| I2C           | 1    | 2     |
+| UART          | 2    | 2     |
+| USB           | 0    | 1     |
+| MAC           | 0    | 1     |
+| MDDR          | 0    | 1     |
+| HPDMA         | 1    | 1     |
+| PDMA          | 1    | 1     |
++---------------+------+-------+
+
+* These resources are always marked as used when you are using the MSS
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 2      | 7    |
+| 5      | 1    |
+| 7      | 2    |
+| 9      | 6    |
+| 14     | 1    |
+| 15     | 1    |
+| 16     | 1    |
+| 17     | 5    |
+| 24     | 1    |
+| Total  | 25   |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 2            | 0           | 0               |
+| Output I/O                    | 17           | 0           | 0               |
+| Bidirectional I/O             | 2            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------+--------+------+-------+--------+---------------+
+| I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
++--------------+--------+------+-------+--------+---------------+
+| LVCMOS33     |  3.30v |  N/A |  2    |  17    |  2            |
++--------------+--------+------+-------+--------+---------------+
+
+I/O Placement
++----------+-------+------------+
+| Type     | Count | Percentage |
++----------+-------+------------+
+| Locked   |  20   | 95.24%     |
+| Placed   |  0    | 0.00%      |
+| UnPlaced |  1    | 4.76%      |
++----------+-------+------------+
+
+Nets assigned to chip global resources
++--------+---------+-------------------------------------+
+| Fanout | Type    | Name                                |
++--------+---------+-------------------------------------+
+| 447    | INT_NET | Net   : FCCC_0_GL0                  |
+|        |         | Driver: FCCC_0/GL0_INST/U0_RGB1     |
+|        |         | Source: NETLIST                     |
+| 268    | INT_NET | Net   : SYSRESET_0_POWER_ON_RESET_N |
+|        |         | Driver: SYSRESET_0_RNIHNV1/U0_RGB1  |
+|        |         | Source: NETLIST                     |
+| 99     | INT_NET | Net   : FCCC_0_GL1                  |
+|        |         | Driver: FCCC_0/GL1_INST/U0_RGB1     |
+|        |         | Source: NETLIST                     |
++--------+---------+-------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+----------------------------------------+
+| Fanout | Type    | Name                                   |
++--------+---------+----------------------------------------+
+| 269    | INT_NET | Net   : SYSRESET_0                     |
+|        |         | Driver: SYSRESET_0                     |
+| 128    | INT_NET | Net   : CFG0_GND_INST_NET              |
+|        |         | Driver: CFG0_GND_INST                  |
+| 80     | INT_NET | Net   : CoreAPB3_0_APBmslave0_PADDR[3] |
+|        |         | Driver: FPGA_SoC_MSS_0/MSS_ADLIB_INST  |
+| 53     | INT_NET | Net   : CoreAPB3_0_APBmslave0_PADDR[5] |
+|        |         | Driver: FPGA_SoC_MSS_0/MSS_ADLIB_INST  |
+| 41     | INT_NET | Net   : LCD_RGB_0/cnt[1]               |
+|        |         | Driver: LCD_RGB_0/cnt[1]               |
+| 41     | INT_NET | Net   : LCD_RGB_0/cnt[2]               |
+|        |         | Driver: LCD_RGB_0/cnt[2]               |
+| 37     | INT_NET | Net   : CoreAPB3_0_APBmslave0_PADDR[4] |
+|        |         | Driver: FPGA_SoC_MSS_0/MSS_ADLIB_INST  |
+| 35     | INT_NET | Net   : CoreAPB3_0_APBmslave0_PADDR[2] |
+|        |         | Driver: FPGA_SoC_MSS_0/MSS_ADLIB_INST  |
+| 35     | INT_NET | Net   : LCD_RGB_0/cnt[5]               |
+|        |         | Driver: LCD_RGB_0/cnt[5]               |
+| 33     | INT_NET | Net   : LCD_RGB_0/cnt[0]               |
+|        |         | Driver: LCD_RGB_0/cnt[0]               |
++--------+---------+----------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+----------------------------------------+
+| Fanout | Type    | Name                                   |
++--------+---------+----------------------------------------+
+| 269    | INT_NET | Net   : SYSRESET_0                     |
+|        |         | Driver: SYSRESET_0                     |
+| 128    | INT_NET | Net   : CFG0_GND_INST_NET              |
+|        |         | Driver: CFG0_GND_INST                  |
+| 80     | INT_NET | Net   : CoreAPB3_0_APBmslave0_PADDR[3] |
+|        |         | Driver: FPGA_SoC_MSS_0/MSS_ADLIB_INST  |
+| 53     | INT_NET | Net   : CoreAPB3_0_APBmslave0_PADDR[5] |
+|        |         | Driver: FPGA_SoC_MSS_0/MSS_ADLIB_INST  |
+| 41     | INT_NET | Net   : LCD_RGB_0/cnt[1]               |
+|        |         | Driver: LCD_RGB_0/cnt[1]               |
+| 41     | INT_NET | Net   : LCD_RGB_0/cnt[2]               |
+|        |         | Driver: LCD_RGB_0/cnt[2]               |
+| 37     | INT_NET | Net   : CoreAPB3_0_APBmslave0_PADDR[4] |
+|        |         | Driver: FPGA_SoC_MSS_0/MSS_ADLIB_INST  |
+| 35     | INT_NET | Net   : CoreAPB3_0_APBmslave0_PADDR[2] |
+|        |         | Driver: FPGA_SoC_MSS_0/MSS_ADLIB_INST  |
+| 35     | INT_NET | Net   : LCD_RGB_0/cnt[5]               |
+|        |         | Driver: LCD_RGB_0/cnt[5]               |
+| 33     | INT_NET | Net   : LCD_RGB_0/cnt[0]               |
+|        |         | Driver: LCD_RGB_0/cnt[0]               |
++--------+---------+----------------------------------------+
+

@@ -1,0 +1,46 @@
+Resource Usage Report for FPGA_SoC 
+
+Mapping to part: m2s010tvf400-1
+Cell usage:
+CCC             1 use
+CLKINT          3 uses
+MSS_010         1 use
+RCOSC_25_50MHZ  1 use
+SYSRESET        1 use
+CFG1           134 uses
+CFG2           151 uses
+CFG3           563 uses
+CFG4           380 uses
+
+Carry cells:
+ARI1            213 uses - used for arithmetic functions
+ARI1            19 uses - used for Wide-Mux implementation
+Total ARI1      232 uses
+
+
+Sequential Cells: 
+SLE            667 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+I/O ports: 22
+I/O primitives: 21
+BIBUF          2 uses
+INBUF          2 uses
+OUTBUF         15 uses
+TRIBUFF        2 uses
+
+
+Global Clock Buffers: 3
+
+Total LUTs:    1460
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 180; LUTs = 180;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  667 + 180 + 0 + 0 = 847;
+Total number of LUTs after P&R:  1460 + 180 + 0 + 0 = 1640;
+

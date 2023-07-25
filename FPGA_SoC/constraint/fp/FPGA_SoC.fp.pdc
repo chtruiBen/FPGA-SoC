@@ -1,0 +1,27 @@
+# Microsemi Physical design constraints file
+
+# Version: v11.9 SP6 11.9.6.7
+
+# Design Name: FPGA_SoC 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010T , Package: 256 VF , Speed grade: STD 
+
+# Date generated: Fri Jul 07 15:12:50 2023 
+
+
+#
+# Local clock constraints
+#
+
+
+#
+# Region constraints
+#
+
+
+#
+# Core cell constraints
+#
+

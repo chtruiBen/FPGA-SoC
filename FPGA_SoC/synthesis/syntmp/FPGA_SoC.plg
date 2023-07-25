@@ -1,0 +1,22 @@
+@P:  Worst Slack : 1.046
+@P:  FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock - Estimated Frequency : 111.7 MHz
+@P:  FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock - Estimated Period : 8.954
+@P:  FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock - Requested Period : 10.000
+@P:  FPGA_SoC_FCCC_0_FCCC|GL0_net_inferred_clock - Slack : 1.046
+@P:  FPGA_SoC_FCCC_0_FCCC|GL1_net_inferred_clock - Estimated Frequency : 146.9 MHz
+@P:  FPGA_SoC_FCCC_0_FCCC|GL1_net_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  FPGA_SoC_FCCC_0_FCCC|GL1_net_inferred_clock - Estimated Period : 6.808
+@P:  FPGA_SoC_FCCC_0_FCCC|GL1_net_inferred_clock - Requested Period : 10.000
+@P:  FPGA_SoC_FCCC_0_FCCC|GL1_net_inferred_clock - Slack : 3.192
+@P:  System - Estimated Frequency : 1029.4 MHz
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : 0.971
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : 9.029
+@P: FPGA_SoC Part : m2s010tvf400-1
+@P: FPGA_SoC Register bits  : 667 
+@P: FPGA_SoC DSP Blocks  : 0
+@P: FPGA_SoC I/O primitives : 21
+@P: FPGA_SoC RAM64x18 :  5
+@P:  CPU Time : 0h:00m:07s

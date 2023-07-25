@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>FPGA_SoC</header>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin LCD_RGB_0:ram_lcd_data[131:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/FPGA_SoC/pins/LCD_RGB_0:ram_lcd_data</crossprobe>
+  </drc>
+</drcreport>
