@@ -1,5 +1,5 @@
 # FPGA-SoC
-# M2S010T-1VF256
+## M2S010T-1VF256
 https://www.microchip.com/en-us/product/M2S010T
 
 These SmartFusion2 FPGAs combine the benefits of FPGA flexibility with the processing power of an ARM Cortex-M3 processor
