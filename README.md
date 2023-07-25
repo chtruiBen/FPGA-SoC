@@ -1,2 +1,2 @@
-# FPGA-SoC
+# FPGA Project
 
